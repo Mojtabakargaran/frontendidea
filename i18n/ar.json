@@ -1,0 +1,1563 @@
+{
+  "auth": {
+    "registration": {
+      "title": "التسجيل في سامانين",
+      "subtitle": "أكمل النموذج أدناه لإنشاء حساب جديد",
+      "form": {
+        "fullName": {
+          "label": "الاسم الكامل",
+          "placeholder": "أدخل اسمك الكامل"
+        },
+        "email": {
+          "label": "عنوان البريد الإلكتروني",
+          "placeholder": "example@domain.com"
+        },
+        "password": {
+          "label": "كلمة المرور",
+          "placeholder": "أدخل كلمة المرور"
+        },
+        "confirmPassword": {
+          "label": "تأكيد كلمة المرور",
+          "placeholder": "أعد إدخال كلمة المرور"
+        },
+        "companyName": {
+          "label": "اسم الشركة/العمل",
+          "placeholder": "أدخل اسم شركتك أو عملك"
+        },
+        "language": {
+          "label": "لغة النظام",
+          "persian": "فارسي",
+          "arabic": "عربي"
+        },
+        "locale": {
+          "label": "المنطقة",
+          "iran": "إيران",
+          "uae": "الإمارات العربية المتحدة"
+        }
+      },
+      "buttons": {
+        "submit": "التسجيل",
+        "submitting": "جاري التسجيل...",
+        "backToLogin": "العودة لتسجيل الدخول"
+      },
+      "messages": {
+        "success": "تم التسجيل بنجاح. يرجى التحقق من بريدك الإلكتروني للتأكيد.",
+        "successEmailDelayed": "تم التسجيل بنجاح. قد يتأخر إرسال بريد التأكيد الإلكتروني.",
+        "redirecting": "جاري الانتقال إلى صفحة تسجيل الدخول..."
+      }
+    },
+    "login": {
+      "title": "تسجيل الدخول إلى سامانين",
+      "subtitle": "أدخل بياناتك أدناه لتسجيل الدخول إلى حسابك",
+      "form": {
+        "email": {
+          "label": "عنوان البريد الإلكتروني",
+          "placeholder": "example@domain.com"
+        },
+        "password": {
+          "label": "كلمة المرور",
+          "placeholder": "أدخل كلمة المرور"
+        },
+        "rememberMe": {
+          "label": "تذكرني (30 يوماً)"
+        }
+      },
+      "buttons": {
+        "submit": "تسجيل الدخول",
+        "submitting": "جاري تسجيل الدخول...",
+        "forgotPassword": "نسيت كلمة المرور؟",
+        "backToRegister": "التسجيل الجديد"
+      },
+      "messages": {
+        "success": "تم تسجيل الدخول بنجاح",
+        "invalidCredentials": "البريد الإلكتروني أو كلمة المرور غير صحيحة",
+        "accountLocked": "تم قفل الحساب مؤقتاً بسبب المحاولات المتعددة",
+        "rateLimitExceeded": "عدد كبير من محاولات تسجيل الدخول. يرجى المحاولة مرة أخرى خلال ١٥ دقيقة"
+      }
+    },
+    "logout": {
+      "confirm": "هل أنت متأكد من تسجيل الخروج؟",
+      "success": "تم تسجيل الخروج بنجاح"
+    },
+    "passwordReset": {
+      "request": {
+        "title": "استعادة كلمة المرور",
+        "subtitle": "أدخل عنوان بريدك الإلكتروني لإرسال رابط استعادة كلمة المرور",
+        "form": {
+          "email": {
+            "label": "عنوان البريد الإلكتروني",
+            "placeholder": "example@domain.com"
+          }
+        },
+        "buttons": {
+          "submit": "إرسال رابط الاستعادة",
+          "submitting": "جاري الإرسال...",
+          "backToLogin": "العودة لتسجيل الدخول"
+        },
+        "messages": {
+          "success": "تم إرسال رابط استعادة كلمة المرور. يرجى التحقق من بريدك الإلكتروني."
+        }
+      },
+      "complete": {
+        "title": "تعيين كلمة مرور جديدة",
+        "subtitle": "أدخل كلمة المرور الجديدة",
+        "form": {
+          "password": {
+            "label": "كلمة المرور الجديدة",
+            "placeholder": "أدخل كلمة المرور الجديدة"
+          },
+          "newPassword": {
+            "label": "كلمة المرور الجديدة",
+            "placeholder": "أدخل كلمة المرور الجديدة"
+          },
+          "confirmPassword": {
+            "label": "تأكيد كلمة المرور الجديدة",
+            "placeholder": "أعد إدخال كلمة المرور الجديدة"
+          }
+        },
+        "buttons": {
+          "submit": "تعيين كلمة المرور",
+          "submitting": "جاري التعيين...",
+          "backToLogin": "العودة لتسجيل الدخول"
+        },
+        "messages": {
+          "success": "تم تغيير كلمة المرور بنجاح. يمكنك الآن تسجيل الدخول.",
+          "tokenExpired": "انتهت صلاحية رابط الاستعادة. يرجى طلب رابط جديد.",
+          "tokenInvalid": "رابط الاستعادة غير صالح."
+        }
+      }
+    },
+    "passwordChange": {
+      "mandatory": {
+        "title": "تغيير كلمة المرور الإجباري",
+        "subtitle": "لمتابعة استخدام النظام، يرجى تعيين كلمة مرور جديدة",
+        "buttons": {
+          "submit": "تعيين كلمة مرور جديدة",
+          "submitting": "جاري التعيين..."
+        },
+        "messages": {
+          "redirecting": "جاري الانتقال إلى صفحة تسجيل الدخول..."
+        }
+      }
+    },
+    "emailVerification": {
+      "title": "تأكيد عنوان البريد الإلكتروني",
+      "subtitle": "جارٍ تأكيد عنوان بريدك الإلكتروني...",
+      "messages": {
+        "success": "تم تأكيد عنوان البريد الإلكتروني بنجاح!",
+        "successSubtitle": "يمكنك الآن تسجيل الدخول إلى حسابك.",
+        "invalidToken": "رابط التأكيد غير صالح",
+        "expiredToken": "انتهت صلاحية رابط التأكيد",
+        "alreadyVerified": "تم تأكيد عنوان البريد الإلكتروني مسبقاً",
+        "tooManyAttempts": "تم إجراء عدد كبير من المحاولات. يرجى المحاولة مرة أخرى بعد 15 دقيقة.",
+        "verificationUnavailable": "تأكيد البريد الإلكتروني غير متاح مؤقتاً",
+        "verificationSent": "تم إرسال بريد تأكيد جديد",
+        "errorOccurred": "حدث خطأ في عملية التأكيد"
+      },
+      "buttons": {
+        "goToLogin": "تسجيل الدخول إلى الحساب",
+        "resendEmail": "إعادة إرسال بريد التأكيد",
+        "resending": "جارٍ الإرسال...",
+        "tryAgain": "حاول مرة أخرى"
+      },
+      "resendForm": {
+        "title": "إعادة إرسال بريد التأكيد",
+        "subtitle": "أدخل عنوان بريدك الإلكتروني لإرسال بريد تأكيد جديد",
+        "email": {
+          "label": "عنوان البريد الإلكتروني",
+          "placeholder": "example@domain.com"
+        },
+        "submit": "إرسال بريد التأكيد"
+      }
+    }
+  },
+  "validation": {
+    "required": "هذا الحقل مطلوب",
+    "email": {
+      "invalid": "عنوان البريد الإلكتروني غير صحيح",
+      "alreadyExists": "هذا البريد الإلكتروني مسجل مسبقاً"
+    },
+    "password": {
+      "minLength": "كلمة المرور يجب أن تكون 8 أحرف على الأقل",
+      "policyViolation": "كلمة المرور يجب أن تحتوي على أحرف كبيرة وصغيرة وأرقام ورموز خاصة",
+      "confirmationMismatch": "كلمة المرور وتأكيدها غير متطابقين"
+    },
+    "name": {
+      "minLength": "الاسم يجب أن يكون حرفين على الأقل",
+      "maxLength": "الاسم لا يمكن أن يتجاوز 100 حرف"
+    },
+    "companyName": {
+      "minLength": "اسم الشركة يجب أن يكون حرفين على الأقل",
+      "maxLength": "اسم الشركة لا يمكن أن يتجاوز 200 حرف"
+    }
+  },
+  "errors": {
+    "generic": "حدث خطأ. يرجى المحاولة مرة أخرى.",
+    "network": "مشكلة في الاتصال بالإنترنت. يرجى التحقق من اتصالك.",
+    "serverUnavailable": "الخدمة غير متاحة مؤقتاً. يرجى المحاولة لاحقاً.",
+    "tenantCreationFailed": "فشل في إنشاء المؤسسة",
+    "databaseError": "خطأ في قاعدة البيانات",
+    "users.ROLES_RETRIEVED_SUCCESS": "تم تحميل الأدوار بنجاح.",
+    "users.INSUFFICIENT_PERMISSIONS": "ليس لديك إذن للوصول إلى هذا القسم.",
+    "auth.SESSION_EXPIRED": "انتهت صلاحية جلستك. يرجى تسجيل الدخول مرة أخرى."
+  },
+  "common": {
+    "loading": "جارٍ التحميل...",
+    "submit": "إرسال",
+    "cancel": "إلغاء",
+    "close": "إغلاق",
+    "yes": "نعم",
+    "no": "لا",
+    "ok": "موافق",
+    "retry": "إعادة المحاولة",
+    "showPassword": "إظهار كلمة المرور",
+    "hidePassword": "إخفاء كلمة المرور",
+    "error": "خطأ",
+    "success": "نجح",
+    "previous": "السابق",
+    "next": "التالي",
+    "reset": "إعادة تعيين",
+    "refresh": "تحديث",
+    "filters": "المرشحات",
+    "all": "الكل",
+    "goBack": "العودة",
+    "backToDashboard": "العودة إلى لوحة التحكم",
+    "today": "اليوم",
+    "openCalendar": "فتح التقويم",
+    "pagination": {
+      "showing": "عرض {start} إلى {end} من {total}",
+      "previous": "السابق",
+      "next": "التالي"
+    },
+    "roles": {
+      "tenant_owner": "مالك المؤسسة",
+      "admin": "مدير النظام",
+      "manager": "مدير العمليات",
+      "employee": "موظف",
+      "staff": "الموظفين"
+    },
+    "status": {
+      "active": "نشط",
+      "inactive": "غير نشط",
+      "pending_verification": "في انتظار التحقق",
+      "suspended": "معلق"
+    },
+    "confirmations": {
+      "terminateSession": "هل أنت متأكد من إنهاء هذه الجلسة؟"
+    }
+  },
+  "ui": {
+    "languageSelector": {
+      "label": "اختيار اللغة",
+      "persian": "فارسي",
+      "arabic": "عربي"
+    }
+  },
+  "dashboard": {
+    "title": "لوحة التحكم",
+    "welcome": "مرحباً",
+    "loading": "جاري تحميل لوحة التحكم...",
+    "futureModules": "الوحدات المستقبلية",
+    "tenantIdDescription": "معرف المؤسسة",
+    "contactSupportForActivation": "يرجى الاتصال بالدعم لتفعيل الحساب.",
+    "header": {
+      "userMenu": "قائمة المستخدم",
+      "logout": "تسجيل الخروج"
+    },
+    "navigation": {
+      "dashboard": "لوحة التحكم",
+      "users": "إدارة المستخدمين",
+      "inventory": "إدارة المخزون",
+      "categories": "إدارة الفئات",
+      "customers": "إدارة العملاء",
+      "rentals": "إدارة الإيجارات",
+      "reports": "التقارير",
+      "audit": "مسار المراجعة",
+      "permissions": "إدارة الصلاحيات",
+      "comingSoon": "قريباً"
+    },
+    "info": {
+      "companyName": "اسم الشركة",
+      "registrationDate": "تاريخ التسجيل",
+      "userCount": "عدد المستخدمين",
+      "status": "الحالة",
+      "tenantId": "معرف المؤسسة",
+      "lastLogin": "آخر دخول",
+      "role": "الدور",
+      "systemVersion": "إصدار النظام",
+      "lastUpdate": "آخر تحديث",
+      "serviceStatus": "حالة الخدمة"
+    },
+    "status": {
+      "active": "نشط",
+      "inactive": "غير نشط",
+      "operational": "يعمل",
+      "maintenance": "صيانة"
+    },
+    "roles": {
+      "tenant_owner": "مالك المؤسسة",
+      "admin": "مدير النظام", 
+      "manager": "مدير العمليات",
+      "employee": "موظف",
+      "staff": "الموظفين"
+    },
+    "messages": {
+      "sessionExpired": "انتهت صلاحية الجلسة. يرجى تسجيل الدخول مرة أخرى.",
+      "tenantInactive": "الحساب غير نشط مؤقتاً. يرجى الاتصال بالدعم.",
+      "loadingError": "خطأ في تحميل البيانات. يرجى المحاولة مرة أخرى.",
+      "contactSupport": "الاتصال بالدعم"
+    },
+    "modules": {
+      "inventory": {
+        "title": "إدارة المخزون",
+        "description": "إدارة العناصر القابلة للإيجار"
+      },
+      "customers": {
+        "title": "إدارة العملاء",
+        "description": "إدارة معلومات العملاء"
+      },
+      "rentals": {
+        "title": "إدارة الإيجارات",
+        "description": "إدارة العقود والإيجارات"
+      },
+      "reports": {
+        "title": "التقارير",
+        "description": "التقارير المالية والأداء"
+      },
+      "users": "إدارة المستخدمين"
+    }
+  },
+  "users": {
+    "list": {
+      "title": "إدارة المستخدمين",
+      "subtitle": "إدارة حسابات المستخدمين في المؤسسة",
+      "create_user": "إنشاء مستخدم جديد",
+      "total_users": "إجمالي {{count}} مستخدم",
+      "results_summary": "عرض {{showing}} من {{total}} مستخدم (صفحة {{page}} من {{totalPages}})",
+      "loading": "جاري تحميل قائمة المستخدمين...",
+      "load_error": "خطأ في تحميل قائمة المستخدمين",
+      "no_users": {
+        "title": "لا يوجد مستخدمون بعد",
+        "description": "قم بإنشاء أول مستخدم لك"
+      },
+      "no_results": {
+        "title": "لم يتم العثور على مستخدمين",
+        "description": "لم يتم العثور على مستخدمين بمعايير البحث الخاصة بك. يرجى تغيير المرشحات أو مسحها."
+      },
+      "create_first_user": "إنشاء أول مستخدم",
+      "never_logged_in": "لم يسجل الدخول مطلقاً",
+      "search": {
+        "placeholder": "البحث بالاسم أو البريد الإلكتروني..."
+      },
+      "filters": {
+        "toggle": "المرشحات",
+        "clear": "مسح المرشحات",
+        "status": {
+          "label": "حالة الحساب",
+          "all": "جميع الحالات"
+        },
+        "role": {
+          "label": "دور المستخدم",
+          "all": "جميع الأدوار"
+        },
+        "sort": {
+          "label": "ترتيب"
+        }
+      },
+      "headers": {
+        "fullName": "الاسم الكامل",
+        "email": "البريد الإلكتروني",
+        "phone": "الهاتف",
+        "role": "الدور",
+        "status": "الحالة",
+        "lastLogin": "آخر تسجيل دخول",
+        "actions": "الإجراءات"
+      },
+      "actions": {
+        "edit": "تحرير المستخدم",
+        "resetPassword": "إعادة تعيين كلمة المرور",
+        "deactivate": "إلغاء التفعيل",
+        "reactivate": "إعادة التفعيل"
+      },
+      "bulkActions": {
+        "selected": "{{count}} مستخدم محدد",
+        "deactivate": "إلغاء التفعيل",
+        "reactivate": "إعادة التفعيل",
+        "clear": "إلغاء التحديد"
+      },
+      "sort": {
+        "fullName_asc": "الاسم الكامل (أ إلى ي)",
+        "fullName_desc": "الاسم الكامل (ي إلى أ)",
+        "email_asc": "البريد الإلكتروني (أ إلى ي)",
+        "email_desc": "البريد الإلكتروني (ي إلى أ)",
+        "createdAt_asc": "تاريخ الإنشاء (الأقدم)",
+        "createdAt_desc": "تاريخ الإنشاء (الأحدث)",
+        "lastLoginAt_asc": "آخر تسجيل دخول (الأقدم)",
+        "lastLoginAt_desc": "آخر تسجيل دخول (الأحدث)",
+        "status_asc": "الحالة (أ إلى ي)",
+        "status_desc": "الحالة (ي إلى أ)"
+      },
+      "pagination_info": "صفحة {{current}} من {{total}} - عرض {{showing}} من {{totalItems}} مستخدم",
+      "page_info": "صفحة {{current}} من {{total}}"
+    },
+    "create": {
+      "title": "إنشاء مستخدم جديد",
+      "back_to_list": "العودة إلى قائمة المستخدمين",
+      "roles_load_error": "خطأ في تحميل الأدوار",
+      "form": {
+        "fullName": {
+          "label": "الاسم الكامل",
+          "placeholder": "أدخل الاسم الكامل للمستخدم"
+        },
+        "email": {
+          "label": "عنوان البريد الإلكتروني",
+          "placeholder": "example@domain.com"
+        },
+        "phoneNumber": {
+          "label": "رقم الهاتف (اختياري)",
+          "placeholder": "+971 50 123 4567"
+        },
+        "role": {
+          "label": "دور المستخدم",
+          "placeholder": "اختر الدور المطلوب"
+        },
+        "password": {
+          "label": "كلمة المرور",
+          "placeholder": "أدخل كلمة المرور"
+        },
+        "generatePassword": {
+          "label": "إنشاء كلمة مرور تلقائياً"
+        },
+        "status": {
+          "label": "تفعيل الحساب"
+        }
+      },
+      "buttons": {
+        "create": "إنشاء مستخدم",
+        "creating": "جاري الإنشاء..."
+      },
+      "success": {
+        "title": "تم إنشاء المستخدم بنجاح",
+        "message": "تم إنشاء حساب {{name}} بنجاح.",
+        "generated_password": "كلمة المرور المنشأة:",
+        "password_note": "احتفظ بكلمة المرور هذه في مكان آمن وقدمها للمستخدم.",
+        "welcome_email_sent": "تم إرسال بريد الترحيب الإلكتروني",
+        "back_to_list": "العودة إلى قائمة المستخدمين"
+      }
+    },
+    "edit": {
+      "title": "تحرير معلومات المستخدم",
+      "subtitle": "تحرير معلومات الملف الشخصي للمستخدم",
+      "back_to_list": "العودة إلى قائمة المستخدمين",
+      "current_info": "المعلومات الحالية للمستخدم",
+      "roles_load_error": "خطأ في تحميل الأدوار",
+      "form": {
+        "title": "نموذج تحرير المستخدم",
+        "fullName": {
+          "label": "الاسم الكامل",
+          "placeholder": "أدخل الاسم الكامل للمستخدم",
+          "errors": {
+            "min_length": "يجب أن يكون الاسم على الأقل 2 أحرف",
+            "max_length": "لا يمكن أن يزيد الاسم عن 100 حرف"
+          }
+        },
+        "email": {
+          "label": "عنوان البريد الإلكتروني",
+          "readonly_note": "عنوان البريد الإلكتروني غير قابل للتغيير"
+        },
+        "phoneNumber": {
+          "label": "رقم الهاتف (اختياري)",
+          "placeholder": "+971 50 123 4567",
+          "errors": {
+            "invalid_format": "تنسيق رقم الهاتف غير صحيح"
+          }
+        },
+        "role": {
+          "label": "دور المستخدم",
+          "placeholder": "اختر الدور المطلوب",
+          "loading": "جاري تحميل الأدوار..."
+        },
+        "currentStatus": {
+          "label": "الحالة الحالية"
+        },
+        "status": {
+          "label": "حالة الحساب",
+          "active_label": "حساب نشط",
+          "active_description": "المستخدم لديه وصول كامل للنظام"
+        },
+        "submit": "حفظ التغييرات",
+        "submitting": "جاري الحفظ...",
+        "no_changes_note": "لحفظ التغييرات، قم بتعديل بعض المعلومات أولاً",
+        "errors": {
+          "no_changes": "لم يتم تطبيق أي تغييرات"
+        }
+      },
+      "success": {
+        "title": "تم تحديث معلومات المستخدم بنجاح",
+        "message": "تم تحديث معلومات المستخدم {{name}} بنجاح.",
+        "modified_fields": "الحقول المحدثة:",
+        "notification_sent": "تم إرسال إشعار التغييرات للمستخدم",
+        "back_to_list": "العودة إلى قائمة المستخدمين"
+      }
+    },
+    "resetPassword": {
+      "title": "إعادة تعيين كلمة مرور المستخدم",
+      "subtitle": "اختيار طريقة إعادة تعيين كلمة المرور للمستخدم",
+      "userInfo": {
+        "title": "معلومات المستخدم",
+        "name": "الاسم",
+        "email": "البريد الإلكتروني",
+        "role": "الدور",
+        "lastLogin": "آخر تسجيل دخول"
+      },
+      "methods": {
+        "title": "اختر طريقة إعادة تعيين كلمة المرور",
+        "temporaryPassword": {
+          "title": "توليد كلمة مرور مؤقتة",
+          "description": "سيتم توليد كلمة مرور مؤقتة وعرضها لك. يجب على المستخدم تغييرها في أول تسجيل دخول.",
+          "features": {
+            "immediate": "فوري",
+            "expires24h": "انتهاء صالحية 24 ساعة",
+            "forceChange": "إجبار التغيير"
+          }
+        },
+        "resetLink": {
+          "title": "إرسال رابط إعادة التعيين",
+          "description": "سيتم إرسال رابط آمن لإعادة تعيين كلمة المرور إلى بريد المستخدم الإلكتروني. سيختار المستخدم كلمة المرور الجديدة بنفسه.",
+          "features": {
+            "secure": "آمن",
+            "userChoice": "اختيار المستخدم",
+            "expires24h": "انتهاء صالحية 24 ساعة"
+          }
+        }
+      },
+      "confirmation": {
+        "temporaryPassword": "هل أنت متأكد من أنك تريد توليد كلمة مرور مؤقتة لهذا المستخدم؟",
+        "resetLink": "هل أنت متأكد من أنك تريد إرسال رابط إعادة تعيين كلمة المرور لهذا المستخدم؟",
+        "consequences": {
+          "title": "عواقب هذه العملية:",
+          "invalidateSessions": "سيتم إلغاء جميع جلسات المستخدم الحالية",
+          "emailNotification": "سيتم إرسال إشعار بريد إلكتروني للمستخدم",
+          "auditLog": "سيتم تسجيل هذه العملية في سجلات النظام",
+          "temporaryExpiry": "ستنتهي صالحية كلمة المرور المؤقتة بعد 24 ساعة"
+        }
+      },
+      "success": {
+        "message": "تم إعادة تعيين كلمة المرور بنجاح",
+        "details": {
+          "title": "تفاصيل العملية",
+          "method": "الطريقة",
+          "expiresAt": "تاريخ انتهاء الصالحية",
+          "emailSent": "إرسال البريد الإلكتروني",
+          "emailSentYes": "تم الإرسال",
+          "emailSentNo": "لم يتم الإرسال",
+          "sessionsInvalidated": "الجلسات الملغاة"
+        },
+        "temporaryPassword": {
+          "title": "كلمة المرور المؤقتة",
+          "copy": "نسخ",
+          "copied": "تم النسخ",
+          "warning": "احتفظ بكلمة المرور هذه في مكان آمن وقدمها للمستخدم. يجب على المستخدم تغييرها في أول تسجيل دخول."
+        }
+      },
+      "buttons": {
+        "cancel": "إلغاء",
+        "back": "رجوع",
+        "confirmReset": "تأكيد إعادة التعيين",
+        "resetting": "جاري إعادة التعيين...",
+        "close": "إغلاق"
+      }
+    },
+    "statusChange": {
+      "single": {
+        "deactivate": {
+          "title": "إلغاء تفعيل الحساب",
+          "description": "إلغاء تفعيل حساب {{name}}"
+        },
+        "reactivate": {
+          "title": "إعادة تفعيل الحساب",
+          "description": "إعادة تفعيل حساب {{name}}"
+        }
+      },
+      "bulk": {
+        "deactivate": {
+          "title": "إلغاء تفعيل متعدد للحسابات",
+          "description": "إلغاء تفعيل {{count}} حساب"
+        },
+        "reactivate": {
+          "title": "إعادة تفعيل متعدد للحسابات",
+          "description": "إعادة تفعيل {{count}} حساب"
+        },
+        "summary": {
+          "title": "ملخص العملية الجماعية",
+          "description": "{{count}} مستخدم محدد وسيتم {{action}}",
+          "deactivated": "إلغاء تفعيله",
+          "reactivated": "إعادة تفعيله"
+        }
+      },
+      "confirmation": {
+        "single": {
+          "deactivate": {
+            "title": "تأكيد إلغاء تفعيل الحساب",
+            "description": "هل أنت متأكد من أنك تريد إلغاء تفعيل هذا الحساب؟"
+          },
+          "reactivate": {
+            "title": "تأكيد إعادة تفعيل الحساب",
+            "description": "هل أنت متأكد من أنك تريد إعادة تفعيل هذا الحساب؟"
+          }
+        },
+        "bulk": {
+          "deactivate": {
+            "title": "تأكيد إلغاء التفعيل المتعدد",
+            "description": "هل أنت متأكد من أنك تريد إلغاء تفعيل {{count}} حساب؟"
+          },
+          "reactivate": {
+            "title": "تأكيد إعادة التفعيل المتعدد",
+            "description": "هل أنت متأكد من أنك تريد إعادة تفعيل {{count}} حساب؟"
+          }
+        },
+        "reason": "سبب تغيير الحالة:",
+        "cancel": "إلغاء",
+        "deactivate": "إلغاء التفعيل",
+        "reactivate": "إعادة التفعيل",
+        "processing": "جاري المعالجة..."
+      },
+      "impact": {
+        "single": {
+          "deactivate": "سيفقد هذا المستخدم حقوق الوصول فوراً وستبطل جميع جلساته الحالية. ستبقى البيانات التاريخية محفوظة.",
+          "reactivate": "سيحصل هذا المستخدم على حقوق الوصول الكاملة للنظام فوراً ويمكنه تسجيل الدخول."
+        },
+        "bulk": {
+          "deactivate": "سيفقد هؤلاء المستخدمون حقوق الوصول فوراً وستبطل جميع جلساتهم الحالية. ستبقى البيانات التاريخية محفوظة.",
+          "reactivate": "سيحصل هؤلاء المستخدمون على حقوق الوصول الكاملة للنظام فوراً ويمكنهم تسجيل الدخول."
+        }
+      },
+      "reason": {
+        "label": "سبب تغيير الحالة",
+        "optional": "اختياري",
+        "placeholder": "اكتب سبب تغيير حالة الحساب...",
+        "help": "سيتم تسجيل هذا السبب في سجلات النظام وإبلاغ المستخدم به."
+      },
+      "success": {
+        "deactivation": {
+          "title": "تم إلغاء تفعيل الحساب بنجاح"
+        },
+        "reactivation": {
+          "title": "تم إعادة تفعيل الحساب بنجاح"
+        },
+        "single": {
+          "description": "تم تغيير حالة حساب {{name}} بنجاح."
+        },
+        "bulk": {
+          "description": "تم تغيير حالة {{count}} حساب بنجاح."
+        },
+        "details": {
+          "newStatus": "الحالة الجديدة",
+          "previousStatus": "الحالة السابقة",
+          "timestamp": "وقت التغيير",
+          "affectedUsers": "المستخدمون المتأثرون",
+          "sessionsInvalidated": "الجلسات الملغاة",
+          "reason": "السبب"
+        },
+        "emailSent": "تم إرسال إشعار بالبريد الإلكتروني للمستخدمين",
+        "emailFailed": "فشل في إرسال إشعار البريد الإلكتروني",
+        "close": "إغلاق"
+      },
+      "cancel": "إلغاء",
+      "deactivate": "إلغاء التفعيل",
+      "reactivate": "إعادة التفعيل"
+    },
+    "status": {
+      "active": "نشط",
+      "inactive": "غير نشط",
+      "pending_verification": "في انتظار التحقق",
+      "suspended": "معلق"
+    },
+    "validation": {
+      "FULL_NAME_TOO_SHORT": "يجب أن يكون الاسم على الأقل حرفين",
+      "FULL_NAME_TOO_LONG": "لا يمكن أن يزيد الاسم عن 100 حرف",
+      "INVALID_EMAIL_FORMAT": "تنسيق البريد الإلكتروني غير صحيح",
+      "INVALID_PHONE_NUMBER_FORMAT": "تنسيق رقم الهاتف غير صحيح",
+      "PASSWORD_TOO_SHORT": "يجب أن تكون كلمة المرور 8 أحرف على الأقل",
+      "PASSWORD_MISSING_LOWERCASE": "يجب أن تحتوي كلمة المرور على حرف صغير واحد على الأقل",
+      "PASSWORD_MISSING_UPPERCASE": "يجب أن تحتوي كلمة المرور على حرف كبير واحد على الأقل",
+      "PASSWORD_MISSING_NUMBER": "يجب أن تحتوي كلمة المرور على رقم واحد على الأقل",
+      "PASSWORD_MISSING_SPECIAL": "يجب أن تحتوي كلمة المرور على رمز خاص واحد على الأقل",
+      "ROLE_REQUIRED": "اختيار الدور مطلوب"
+    }
+  },
+  "locale": {
+    "formatting": {
+      "loading": "جاري تحميل إعدادات التنسيق...",
+      "error": "خطأ في تحميل إعدادات التنسيق",
+      "calendar": {
+        "persian": "التقويم الفارسي",
+        "gregorian": "التقويم الميلادي"
+      },
+      "digits": {
+        "persian": "الأرقام الفارسية",
+        "arabic": "الأرقام العربية",
+        "latin": "الأرقام اللاتينية"
+      },
+      "currency": {
+        "irr": "الريال الإيراني",
+        "aed": "الدرهم الإماراتي"
+      }
+    }
+  },
+  "profile": {
+    "navigation": {
+      "title": "الملف الشخصي",
+      "overview": "المعلومات العامة",
+      "edit": "تحرير الملف الشخصي",
+      "password": "تغيير كلمة المرور",
+      "sessions": "إدارة الجلسات",
+      "activity": "أنشطة الحساب"
+    },
+    "overview": {
+      "title": "معلومات الملف الشخصي",
+      "subtitle": "معلومات حسابك",
+      "sections": {
+        "basicInfo": "المعلومات الأساسية",
+        "accountInfo": "معلومات الحساب",
+        "securityInfo": "معلومات الأمان"
+      },
+      "fields": {
+        "fullName": "الاسم الكامل",
+        "email": "عنوان البريد الإلكتروني",
+        "phoneNumber": "رقم الهاتف",
+        "role": "الدور",
+        "status": "حالة الحساب",
+        "lastLogin": "آخر تسجيل دخول",
+        "lastLoginIp": "عنوان IP لآخر تسجيل دخول",
+        "createdAt": "تاريخ إنشاء الحساب",
+        "noPhoneNumber": "لم يتم تسجيل رقم الهاتف",
+        "noLastLogin": "لم تقم بتسجيل الدخول بعد"
+      },
+      "buttons": {
+        "editProfile": "تحرير الملف الشخصي",
+        "changePassword": "تغيير كلمة المرور"
+      }
+    },
+    "edit": {
+      "title": "تحرير الملف الشخصي",
+      "subtitle": "تحرير المعلومات القابلة للتغيير في حسابك",
+      "form": {
+        "fullName": {
+          "label": "الاسم الكامل",
+          "placeholder": "أدخل اسمك الكامل"
+        },
+        "phoneNumber": {
+          "label": "رقم الهاتف",
+          "placeholder": "+971 50 123 4567"
+        }
+      },
+      "restrictedFieldNote": {
+        "title": "ملاحظة:",
+        "message": "عنوان البريد الإلكتروني والدور وحالة الحساب غير قابلة للتغيير ويجب تغييرها من قبل مدير النظام."
+      },
+      "buttons": {
+        "save": "حفظ التغييرات",
+        "saving": "جاري الحفظ...",
+        "cancel": "إلغاء"
+      },
+      "messages": {
+        "success": "تم تحديث الملف الشخصي بنجاح",
+        "noChanges": "لم يتم إجراء أي تغييرات"
+      }
+    },
+    "changePassword": {
+      "title": "تغيير كلمة المرور",
+      "subtitle": "لتغيير كلمة المرور، أدخل كلمة المرور الحالية والجديدة",
+      "form": {
+        "currentPassword": {
+          "label": "كلمة المرور الحالية",
+          "placeholder": "أدخل كلمة المرور الحالية"
+        },
+        "newPassword": {
+          "label": "كلمة المرور الجديدة",
+          "placeholder": "أدخل كلمة المرور الجديدة"
+        },
+        "confirmPassword": {
+          "label": "تأكيد كلمة المرور الجديدة",
+          "placeholder": "أدخل كلمة المرور الجديدة مرة أخرى"
+        }
+      },
+      "buttons": {
+        "change": "تغيير كلمة المرور",
+        "changing": "جاري التغيير...",
+        "cancel": "إلغاء"
+      },
+      "messages": {
+        "success": "تم تغيير كلمة المرور بنجاح",
+        "sessionsInvalidated": "تم إلغاء {{count}} جلسة أخرى أيضاً"
+      }
+    },
+    "sessions": {
+      "title": "إدارة الجلسات",
+      "subtitle": "إدارة الجلسات النشطة لحسابك",
+      "current": "الجلسة الحالية",
+      "other": "الجلسات الأخرى",
+      "fields": {
+        "ipAddress": "عنوان IP",
+        "userAgent": "المتصفح",
+        "lastActivity": "آخر نشاط",
+        "expires": "انتهاء الصلاحية"
+      },
+      "buttons": {
+        "terminate": "إنهاء الجلسة",
+        "terminateAll": "إنهاء جميع الجلسات الأخرى",
+        "refresh": "تحديث"
+      },
+      "messages": {
+        "sessionTerminated": "تم إنهاء الجلسة بنجاح",
+        "noOtherSessions": "لا توجد جلسات نشطة أخرى"
+      }
+    },
+    "activity": {
+      "title": "أنشطة الحساب",
+      "subtitle": "سجل الأنشطة الأخيرة لحسابك",
+      "fields": {
+        "type": "نوع النشاط",
+        "timestamp": "الوقت",
+        "ipAddress": "عنوان IP",
+        "userAgent": "المتصفح",
+        "details": "التفاصيل"
+      },
+      "types": {
+        "login": "تسجيل الدخول",
+        "logout": "تسجيل الخروج",
+        "profile_updated": "تحديث الملف الشخصي",
+        "password_changed": "تغيير كلمة المرور",
+        "session_terminated": "إنهاء الجلسة"
+      },
+      "devices": {
+        "unknown": "غير معروف",
+        "mobile": "الهاتف المحمول",
+        "chrome": "كروم",
+        "firefox": "فايرفوكس",
+        "safari": "سافاري",
+        "edge": "إج",
+        "browser": "المتصفح"
+      },
+      "pagination": {
+        "showing": "عرض {{from}} إلى {{to}} من {{total}} نشاط",
+        "noActivity": "لم يتم تسجيل أي نشاط",
+        "pageInfo": "صفحة {{page}} من {{totalPages}}",
+        "previous": "السابق",
+        "next": "التالي"
+      },
+      "buttons": {
+        "loadMore": "تحميل المزيد",
+        "refresh": "تحديث"
+      },
+      "loading": "جاري تحميل الأنشطة..."
+    },
+    "errors": {
+      "loadProfile": "خطأ في تحميل معلومات الملف الشخصي",
+      "updateProfile": "خطأ في تحديث الملف الشخصي",
+      "changePassword": "خطأ في تغيير كلمة المرور",
+      "loadSessions": "خطأ في تحميل الجلسات",
+      "terminateSession": "خطأ في إنهاء الجلسة",
+      "loadActivity": "خطأ في تحميل الأنشطة",
+      "invalidCurrentPassword": "كلمة المرور الحالية غير صحيحة",
+      "passwordMismatch": "كلمة المرور الجديدة وتأكيدها غير متطابقين"
+    }
+  },
+  "audit": {
+    "title": "مسار المراجعة",
+    "subtitle": "عرض وتحليل الأنشطة الأمنية والتشغيلية",
+    "accessDenied": {
+      "title": "وصول محدود",
+      "message": "ليس لديك إذن لعرض مسار المراجعة"
+    },
+    "loading": "جاري تحميل تقارير المراجعة...",
+    "noData": "لم يتم العثور على تقارير مراجعة",
+    "refresh": "تحديث",
+    "retry": "إعادة المحاولة",
+    "error": {
+      "title": "خطأ في تحميل التقارير",
+      "general": "حدث خطأ غير متوقع"
+    },
+    "filters": {
+      "title": "مرشحات البحث",
+      "show": "إظهار المرشحات",
+      "hide": "إخفاء المرشحات",
+      "searchUser": "البحث عن مستخدم",
+      "searchUserPlaceholder": "الاسم أو البريد الإلكتروني أو معرف المستخدم",
+      "actionType": "نوع العملية",
+      "allActions": "جميع العمليات",
+      "status": "الحالة",
+      "allStatuses": "جميع الحالات",
+      "dateFrom": "من التاريخ",
+      "dateTo": "إلى التاريخ",
+      "ipAddress": "عنوان IP",
+      "search": "بحث",
+      "clear": "مسح"
+    },
+    "actions": {
+      "user_created": "إنشاء مستخدم",
+      "user_updated": "تحديث مستخدم",
+      "user_deleted": "حذف مستخدم",
+      "user_deactivated": "إلغاء تفعيل مستخدم",
+      "user_activated": "تفعيل مستخدم",
+      "user_locked": "قفل مستخدم",
+      "user_unlocked": "إلغاء قفل مستخدم",
+      "role_assigned": "تعيين دور",
+      "role_removed": "إزالة دور",
+      "user_role_changed": "تغيير دور المستخدم",
+      "password_reset_initiated": "بدء إعادة تعيين كلمة المرور",
+      "password_reset_requested": "طلب إعادة تعيين كلمة المرور",
+      "password_reset_completed": "إكمال إعادة تعيين كلمة المرور",
+      "password_changed": "تغيير كلمة المرور",
+      "login_success": "تسجيل دخول ناجح",
+      "login_failed": "فشل تسجيل الدخول",
+      "logout": "تسجيل الخروج",
+      "session_terminated": "إنهاء الجلسة",
+      "profile_updated": "تحديث الملف الشخصي",
+      "email_verified": "تأكيد البريد الإلكتروني",
+      "audit_logs_viewed": "عرض سجلات المراجعة",
+      "audit_export_initiated": "بدء تصدير سجل المراجعة",
+      "system_configuration_changed": "تغيير تكوين النظام"
+    },
+    "status": {
+      "success": "نجح",
+      "failed": "فشل"
+    },
+    "logs": {
+      "title": "سجلات المراجعة",
+      "totalRecords": "سجل"
+    },
+    "table": {
+      "timestamp": "الوقت",
+      "actor": "المُنفِّذ",
+      "action": "العملية",
+      "target": "الهدف",
+      "status": "الحالة",
+      "actions": "الإجراءات",
+      "viewDetails": "عرض التفاصيل"
+    },
+    "detail": {
+      "title": "تفاصيل سجل المراجعة",
+      "timestamp": "الوقت الدقيق",
+      "action": "نوع العملية",
+      "actor": "المُنفِّذ",
+      "target": "المستخدم المستهدف",
+      "ipAddress": "عنوان IP",
+      "status": "الحالة",
+      "description": "الوصف",
+      "userAgent": "معلومات المتصفح",
+      "metadata": "معلومات إضافية"
+    },
+    "export": {
+      "button": "تصدير",
+      "exporting": "جاري تحضير التصدير...",
+      "initiated": "تم بدء التصدير. سيتم إرسال رابط التحميل عند اكتماله.",
+      "downloadStarted": "بدأ تحميل الملف.",
+      "filename": "اسم الملف",
+      "recordsExported": "عدد السجلات المصدرة",
+      "errorCode": "رمز الخطأ",
+      "estimatedRecords": "العدد التقريبي للسجلات",
+      "expiresAt": "تاريخ الانتهاء",
+      "exportId": "معرف التصدير",
+      "checkBackLater": "يرجى العودة لاحقاً لتحميل الملف.",
+      "error": "خطأ في التصدير. يرجى المحاولة مرة أخرى.",
+      "selectFormat": "اختيار تنسيق التصدير",
+      "formats": {
+        "csv": "CSV (متوافق مع Excel)",
+        "excel": "Excel (.xlsx)",
+        "pdf": "PDF",
+        "json": "JSON"
+      },
+      "title": "تصدير سجلات المراجعة",
+      "format": "تنسيق الملف",
+      "includeMetadata": "تضمين معلومات إضافية",
+      "dateRange": "النطاق الزمني",
+      "download": "تحميل"
+    }
+  },
+  "pagination": {
+    "showing": "عرض",
+    "of": "من",
+    "previous": "السابق",
+    "next": "التالي"
+  },
+  "permissions": {
+    "title": "إدارة الصلاحيات",
+    "subtitle": "إدارة صلاحيات الأدوار ومراقبة وصول النظام",
+    "accessDenied": "الوصول غير مسموح",
+    "accessDeniedDescription": "ليس لديك صلاحية للوصول إلى هذا القسم. مالك المؤسسة فقط يمكنه إدارة الصلاحيات.",
+    "cannotModifyThisRole": "ليس لديك صلاحية تعديل صلاحيات دور {{role}}",
+    "loading": "جاري تحميل الصلاحيات...",
+    "saving": "جاري الحفظ...",
+    "saveChanges": "حفظ التغييرات",
+    "unsavedChanges": "لديك تغييرات غير محفوظة",
+    "backToOverview": "العودة للنظرة العامة",
+    "managePermissions": "إدارة الصلاحيات",
+    "actionsLabel": "إجراء",
+    "actionsCount": "عدد الإجراءات",
+    "tabs": {
+      "roleManagement": "إدارة الأدوار",
+      "auditLogs": "سجلات المراجعة"
+    },
+    "roleManagement": {
+      "title": "إدارة صلاحيات الدور",
+      "subtitle": "إدارة الصلاحيات للدور: {{roleName}}",
+      "description": "اختر دور لإدارة صلاحياته"
+    },
+    "roleDescriptions": {
+      "tenant_owner": "مالك المؤسسة - وصول كامل لجميع الميزات",
+      "admin": "مدير - وصول إداري مع بعض القيود",
+      "manager": "مدير تشغيلي - وصول تشغيلي محدود",
+      "employee": "موظف - وصول تشغيلي قياسي",
+      "staff": "موظف - وصول محدود للمهام المحددة"
+    },
+    "resources": {
+      "users": "إدارة المستخدمين",
+      "audit": "مسار المراجعة",
+      "inventory": "إدارة المخزون",
+      "categories": "إدارة الفئات",
+      "customers": "إدارة العملاء",
+      "rentals": "إدارة الإيجارات",
+      "reports": "التقارير",
+      "settings": "الإعدادات",
+      "permissions": "إدارة الصلاحيات",
+      "dashboard": "لوحة التحكم",
+      "profile": "إدارة الملف الشخصي",
+      "roles": "إدارة الأدوار",
+      "sessions": "إدارة الجلسات",
+      "system": "إعدادات النظام",
+      "tenants": "إدارة المؤسسات"
+    },
+    "resourceDescriptions": {
+      "users": "إدارة حسابات المستخدمين وإنشاء وتعديل المستخدمين",
+      "audit": "عرض تقارير الأمان وسجلات النظام",
+      "inventory": "إدارة مخزون البضائع والمعدات",
+      "categories": "إدارة فئات المخزون والمعدات",
+      "customers": "إدارة معلومات العملاء والعقود",
+      "rentals": "إدارة عقود الإيجار والمراقبة",
+      "reports": "إنشاء وعرض التقارير المختلفة",
+      "settings": "إدارة إعدادات النظام",
+      "permissions": "إدارة صلاحيات الأدوار",
+      "dashboard": "عرض وإدارة لوحة التحكم الرئيسية للنظام",
+      "profile": "إدارة معلومات الملف الشخصي للمستخدمين",
+      "roles": "إدارة الأدوار ومستويات الوصول",
+      "sessions": "إدارة جلسات المستخدمين النشطة",
+      "system": "إعدادات وتكوين النظام العام",
+      "tenants": "إدارة المؤسسات والمالكين"
+    },
+    "actions": {
+      "create": "إنشاء",
+      "read": "عرض",
+      "update": "تعديل",
+      "delete": "حذف",
+      "manage": "إدارة",
+      "export": "تصدير",
+      "import": "استيراد"
+    },
+    "actionDescriptions": {
+      "create": "إنشاء وإضافة عناصر جديدة",
+      "read": "عرض وقراءة المعلومات",
+      "update": "تحرير وتحديث المعلومات الموجودة",
+      "delete": "حذف وإزالة المعلومات",
+      "manage": "إدارة كاملة والوصول لجميع العمليات",
+      "export": "تصدير وتحميل البيانات",
+      "import": "استيراد وتحميل البيانات"
+    },
+    "results": {
+      "granted": "مسموح",
+      "denied": "غير مسموح",
+      "unknown": "غير معروف"
+    },
+    "audit": {
+      "title": "سجلات مراجعة الصلاحيات",
+      "subtitle": "مراقبة فحوصات الصلاحيات ووصول النظام",
+      "description": "عرض جميع فحوصات الصلاحيات المنجزة في النظام",
+      "noResults": "لم يتم العثور على سجلات مراجعة",
+      "noSearchResults": "لم يتم العثور على نتائج لبحثك",
+      "noData": "لم يتم إجراء أي فحص صلاحيات حتى الآن",
+      "reason": "السبب",
+      "ipAddress": "عنوان IP",
+      "context": "السياق",
+      "search": {
+        "placeholder": "البحث في اسم المستخدم، البريد الإلكتروني، المورد أو الإجراء..."
+      },
+      "filters": {
+        "result": "نتيجة الفحص",
+        "action": "نوع الإجراء",
+        "dateFrom": "من تاريخ",
+        "dateTo": "إلى تاريخ"
+      }
+    }
+  },
+  "categories": {
+    "title": "إدارة الفئات",
+    "subtitle": "إدارة فئات المخزون",
+    "addCategory": "إضافة فئة",
+    "list": {
+      "title": "قائمة الفئات",
+      "empty": "لا توجد فئات",
+      "emptyDescription": "لم يتم إنشاء أي فئة بعد. قم بإنشاء أول فئة لك.",
+      "loading": "جاري تحميل الفئات...",
+      "search": {
+        "placeholder": "البحث في الفئات...",
+        "noResults": "لم يتم العثور على فئات",
+        "noResultsDescription": "لم يتم العثور على أي فئة تطابق مصطلح البحث الخاص بك. جرب كلمات مفتاحية أخرى.",
+        "minLength": "أدخل حرفين على الأقل"
+      },
+      "pagination": {
+        "showing": "عرض {{start}} إلى {{end}} من {{total}} فئة",
+        "page": "الصفحة {{current}} من {{total}}",
+        "previous": "السابق",
+        "next": "التالي",
+        "first": "الأول",
+        "last": "الأخير"
+      },
+      "columns": {
+        "name": "اسم الفئة",
+        "description": "الوصف",
+        "itemsCount": "عدد العناصر",
+        "createdAt": "تاريخ الإنشاء",
+        "updatedAt": "آخر تحديث",
+        "actions": "الإجراءات"
+      }
+    },
+    "form": {
+      "title": "إضافة فئة جديدة",
+      "editTitle": "تعديل الفئة",
+      "name": {
+        "label": "اسم الفئة",
+        "placeholder": "أدخل اسم الفئة",
+        "validation": {
+          "required": "اسم الفئة مطلوب",
+          "minLength": "يجب أن يكون اسم الفئة على الأقل حرفين",
+          "maxLength": "يجب ألا يزيد اسم الفئة عن 255 حرفاً"
+        }
+      },
+      "description": {
+        "label": "الوصف",
+        "placeholder": "أدخل وصف الفئة (اختياري)",
+        "validation": {
+          "maxLength": "يجب ألا يزيد الوصف عن 500 حرف"
+        }
+      },
+      "buttons": {
+        "submit": "إنشاء الفئة",
+        "submitting": "جاري الإنشاء...",
+        "update": "تحديث",
+        "updating": "جاري التحديث...",
+        "cancel": "إلغاء"
+      }
+    },
+    "validation": {
+      "name": {
+        "required": "اسم الفئة مطلوب",
+        "maxLength": "يجب ألا يزيد اسم الفئة عن 255 حرفاً"
+      },
+      "description": {
+        "maxLength": "يجب ألا يزيد الوصف عن 500 حرف"
+      }
+    },
+    "messages": {
+      "createSuccess": "تم إنشاء الفئة بنجاح",
+      "updateSuccess": "تم تحديث الفئة بنجاح",
+      "updateError": "خطأ في تحديث الفئة",
+      "deleteSuccess": "تم حذف الفئة بنجاح",
+      "deleteError": "خطأ في حذف الفئة",
+      "checkItemsError": "خطأ في فحص العناصر المرتبطة",
+      "duplicateName": "اسم الفئة موجود بالفعل",
+      "confirmDelete": "هل أنت متأكد من حذف هذه الفئة؟",
+      "deleteWarning": "هذا الإجراء غير قابل للتراجع وسيتم حذف جميع البيانات المرتبطة بهذه الفئة."
+    },
+    "actions": {
+      "edit": "تعديل",
+      "delete": "حذف",
+      "view": "عرض"
+    },
+    "edit": {
+      "title": "تعديل الفئة",
+      "warningAssociatedItems": "تحتوي هذه الفئة على {{count}} عنصر مرتبط. سيتم تطبيق التغييرات على جميع العناصر.",
+      "buttons": {
+        "update": "تحديث",
+        "updating": "جاري التحديث..."
+      }
+    },
+    "delete": {
+      "title": "حذف الفئة",
+      "description": "هل أنت متأكد من حذف الفئة «{{categoryName}}»؟",
+      "warning": "هذا الإجراء غير قابل للتراجع. سيتم حذف الفئة نهائياً.",
+      "hasItemsError": "لا يمكن حذف الفئة التي تحتوي على {{count}} عنصر مرتبط. انقل العناصر إلى فئات أخرى أولاً.",
+      "categoryToDelete": "الفئة المراد حذفها:",
+      "confirm": "حذف الفئة",
+      "deleting": "جاري الحذف...",
+      "understood": "مفهوم"
+    }
+  },
+  "inventory": {
+    "title": "إدارة المخزون",
+    "subtitle": "إدارة عناصر المخزون والمعدات",
+    "itemType": {
+      "serialized": "مسلسل",
+      "non_serialized": "غير مسلسل",
+      "serializedDesc": "عناصر برقم تسلسلي فريد",
+      "nonSerializedDesc": "عناصر بكمية ووحدة"
+    },
+    "status": {
+      "available": "متوفر",
+      "rented": "مؤجر",
+      "maintenance": "قيد الصيانة",
+      "damaged": "تالف",
+      "lost": "مفقود"
+    },
+    "items": {
+      "title": "قائمة عناصر المخزون",
+      "itemsCount": "عنصر",
+      "selected": "محدد",
+      "selectAll": "تحديد الكل",
+      "selectItem": "تحديد {{name}}",
+      "noItems": "لا توجد عناصر",
+      "noResultsFound": "لم يتم العثور على نتائج",
+      "createFirstItem": "أنشئ أول عنصر مخزون لك",
+      "search": {
+        "placeholder": "البحث في العناصر..."
+      },
+      "filters": {
+        "category": "الفئة",
+        "allCategories": "جميع الفئات",
+        "itemType": "نوع العنصر",
+        "allTypes": "جميع الأنواع",
+        "status": "الحالة",
+        "allStatuses": "جميع الحالات",
+        "showArchived": "عرض العناصر المؤرشفة",
+        "clear": "مسح المرشحات"
+      },
+      "table": {
+        "name": "اسم العنصر",
+        "category": "الفئة",
+        "type": "النوع",
+        "serialOrQuantity": "الرقم التسلسلي / الكمية",
+        "status": "الحالة",
+        "created": "تاريخ الإنشاء",
+        "actions": "الإجراءات"
+      },
+      "actions": {
+        "view": "عرض التفاصيل",
+        "edit": "تحرير",
+        "exportSelected": "تصدير العناصر المحددة"
+      },
+      "errors": {
+        "loadFailed": "خطأ في تحميل عناصر المخزون"
+      }
+    },
+    "form": {
+      "title": "إضافة عنصر جديد",
+      "subtitle": "أضف عنصراً جديداً إلى المخزون",
+      "fields": {
+        "name": {
+          "label": "اسم العنصر",
+          "placeholder": "أدخل اسم العنصر"
+        },
+        "description": {
+          "label": "الوصف",
+          "placeholder": "وصف اختياري للعنصر"
+        },
+        "category": {
+          "label": "الفئة",
+          "placeholder": "اختر الفئة"
+        },
+        "itemType": {
+          "label": "نوع العنصر"
+        },
+        "serialNumber": {
+          "label": "الرقم التسلسلي",
+          "placeholder": "أدخل الرقم التسلسلي يدوياً"
+        },
+        "autoGenerateSerial": {
+          "label": "إنشاء الرقم التسلسلي تلقائياً"
+        },
+        "generatedSerial": {
+          "label": "الرقم التسلسلي المُنشأ"
+        },
+        "quantity": {
+          "label": "الكمية"
+        },
+        "quantityUnit": {
+          "label": "الوحدة",
+          "placeholder": "قطعة، صندوق، حزمة إلخ"
+        }
+      },
+      "serialized": {
+        "title": "إعدادات العنصر المسلسل"
+      },
+      "nonSerialized": {
+        "title": "إعدادات العنصر غير المسلسل"
+      },
+      "validation": {
+        "nameRequired": "اسم العنصر مطلوب",
+        "nameMaxLength": "اسم العنصر يجب ألا يتجاوز ٢٥٥ حرف",
+        "descriptionMaxLength": "الوصف يجب ألا يتجاوز ٢٠٠٠ حرف",
+        "categoryRequired": "اختيار الفئة مطلوب",
+        "itemTypeRequired": "اختيار نوع العنصر مطلوب",
+        "serialNumberMaxLength": "الرقم التسلسلي يجب ألا يتجاوز ١٠٠ حرف",
+        "serialNumberOrAutoGenerate": "أدخل رقماً تسلسلياً أو فعّل الإنشاء التلقائي",
+        "quantityRequired": "الكمية مطلوبة",
+        "quantityMin": "الكمية يجب ألا تكون سالبة",
+        "quantityUnitMaxLength": "الوحدة يجب ألا تتجاوز ٥٠ حرف"
+      },
+      "actions": {
+        "create": "إنشاء العنصر",
+        "creating": "جاري الإنشاء...",
+        "generateSerial": "إنشاء رقم تسلسلي",
+        "generating": "جاري الإنشاء..."
+      },
+      "messages": {
+        "createSuccess": "تم إنشاء العنصر بنجاح",
+        "createError": "خطأ في إنشاء العنصر"
+      }
+    },
+    "details": {
+      "title": "تفاصيل عنصر المخزون",
+      "backToList": "العودة إلى القائمة",
+      "sections": {
+        "basicInfo": "المعلومات الأساسية",
+        "statusTracking": "الحالة والتتبع"
+      },
+      "fields": {
+        "availabilityStatus": "حالة التوفر",
+        "itemStatus": "حالة العنصر",
+        "quantity": "الكمية",
+        "createdAt": "تاريخ الإنشاء",
+        "updatedAt": "آخر تحديث"
+      },
+      "status": {
+        "active": "نشط",
+        "inactive": "غير نشط",
+        "archived": "مؤرشف"
+      },
+      "actions": {
+        "edit": "تحرير",
+        "export": "تصدير",
+        "changeStatus": "تغيير الحالة"
+      },
+      "errors": {
+        "loadFailed": "خطأ في تحميل تفاصيل العنصر"
+      }
+    },
+    "edit": {
+      "title": "تحرير عنصر المخزون",
+      "subtitle": "تحرير المعلومات الأساسية للعنصر",
+      "backToDetails": "العودة إلى التفاصيل",
+      "currentInfo": "المعلومات الحالية للعنصر",
+      "readOnlyInfo": "بعض الحقول غير قابلة للتغيير بسبب وجود تاريخ إيجار",
+      "itemTypeLockedDueToHistory": "نوع العنصر غير قابل للتغيير بسبب وجود تاريخ إيجار",
+      "tabs": {
+        "basicInfo": "المعلومات الأساسية",
+        "serialized": "المعلومات التسلسلية",
+        "quantity": "كمية المخزون"
+      },
+      "fields": {
+        "name": {
+          "label": "اسم العنصر",
+          "placeholder": "أدخل اسم العنصر"
+        },
+        "description": {
+          "label": "الوصف",
+          "placeholder": "وصف اختياري للعنصر"
+        },
+        "category": {
+          "label": "الفئة",
+          "placeholder": "اختر الفئة"
+        },
+        "status": {
+          "label": "حالة العنصر",
+          "placeholder": "اختر الحالة"
+        },
+        "availabilityStatus": {
+          "label": "حالة التوفر"
+        }
+      },
+      "validation": {
+        "nameRequired": "اسم العنصر مطلوب",
+        "nameMaxLength": "اسم العنصر يجب ألا يتجاوز 255 حرفاً",
+        "descriptionMaxLength": "الوصف يجب ألا يتجاوز 2000 حرف",
+        "categoryRequired": "اختيار الفئة مطلوب",
+        "statusRequired": "اختيار الحالة مطلوب"
+      },
+      "actions": {
+        "update": "تحديث",
+        "updating": "جاري التحديث..."
+      },
+      "errors": {
+        "updateFailed": "خطأ في تحديث العنصر",
+        "validationFailed": "خطأ في التحقق من صحة البيانات",
+        "editConflict": "تم تعديل العنصر من قبل مستخدم آخر. يرجى تحديث الصفحة",
+        "itemNotFound": "العنصر المطلوب غير موجود",
+        "insufficientPermissions": "لا تملك صلاحية كافية لتحرير هذا العنصر"
+      },
+      "accessDenied": "الوصول إلى التحرير غير مسموح",
+      "accessDeniedDescription": "ليس لديك صلاحية لتحرير عناصر المخزون. يرجى التواصل مع مدير النظام.",
+      "messages": {
+        "updateSuccess": "تم تحديث العنصر بنجاح"
+      }
+    },
+    "statusChange": {
+      "title": "تغيير حالة العنصر",
+      "description": "تغيير حالة التوفر لـ {{itemName}}",
+      "currentStatus": "الحالة الحالية",
+      "newStatus": "الحالة الجديدة",
+      "changeReason": "سبب تغيير الحالة",
+      "changeReasonPlaceholder": "أدخل سبب تغيير الحالة (اختياري)",
+      "expectedResolutionDate": "تاريخ الحل المتوقع",
+      "comingSoon": "سيتم إضافة ميزة تغيير الحالة قريباً",
+      "actions": {
+        "changeStatus": "تغيير الحالة",
+        "changing": "جاري تغيير الحالة..."
+      },
+      "errors": {
+        "changeFailed": "خطأ في تغيير حالة العنصر",
+        "validationFailed": "خطأ في التحقق من صحة البيانات",
+        "itemNotFound": "العنصر المطلوب غير موجود",
+        "insufficientPermissions": "لا تملك صلاحية كافية لتغيير حالة هذا العنصر",
+        "sameStatus": "الحالة الجديدة يجب أن تختلف عن الحالة الحالية"
+      },
+      "messages": {
+        "changeSuccess": "تم تغيير حالة العنصر بنجاح"
+      }
+    },
+    "export": {
+      "title": "تصدير عناصر المخزون",
+      "description": "تصدير {{count}} عنصر محدد",
+      "selectedItems": "العناصر المحددة",
+      "format": {
+        "title": "تنسيق التصدير",
+        "pdf": {
+          "name": "PDF",
+          "description": "تقرير مفصل قابل للطباعة"
+        },
+        "excel": {
+          "name": "Excel",
+          "description": "جدول بيانات للتحليل"
+        },
+        "csv": {
+          "name": "CSV",
+          "description": "بيانات مفصولة بفواصل"
+        },
+        "json": {
+          "name": "JSON",
+          "description": "تنسيق تبادل البيانات"
+        }
+      },
+      "options": {
+        "title": "خيارات التصدير",
+        "includeDescription": "تضمين الوصف",
+        "includeStatusInfo": "تضمين معلومات الحالة",
+        "includeAuditHistory": "تضمين سجل المراجعة",
+        "dateRange": "النطاق الزمني",
+        "startDate": "تاريخ البداية",
+        "endDate": "تاريخ النهاية"
+      },
+      "actions": {
+        "startExport": "بدء التصدير",
+        "download": "تنزيل"
+      },
+      "status": {
+        "processing": "جاري المعالجة...",
+        "processingDescription": "جاري إنشاء التصدير. يرجى الانتظار.",
+        "completed": "التصدير جاهز",
+        "completedDescription": "تم إنشاء التصدير بنجاح وهو جاهز للتنزيل.",
+        "failed": "فشل التصدير"
+      },
+      "errors": {
+        "failed": "خطأ في إنشاء التصدير"
+      }
+    },
+    "serialized": {
+      "title": "تحرير المعلومات التسلسلية",
+      "subtitle": "تحرير الرقم التسلسلي وتواريخ الصيانة",
+      "currentInfo": "المعلومات الحالية للعنصر",
+      "fields": {
+        "serialNumberPlaceholder": "أدخل الرقم التسلسلي الجديد",
+        "currentSerial": "الرقم التسلسلي الحالي"
+      },
+      "confirmation": {
+        "title": "تأكيد تغيير الرقم التسلسلي",
+        "description": "تغيير الرقم التسلسلي قد يؤثر على تاريخ الإيجار. يرجى تأكيد التغيير.",
+        "currentSerial": "الرقم التسلسلي الحالي",
+        "newSerial": "الرقم التسلسلي الجديد",
+        "empty": "فارغ",
+        "checkboxLabel": "أؤكد أنني أريد تغيير الرقم التسلسلي"
+      },
+      "validation": {
+        "serialNumberMaxLength": "الرقم التسلسلي يجب ألا يزيد عن ١٠٠ حرف"
+      },
+      "actions": {
+        "update": "تحديث المعلومات التسلسلية",
+        "updating": "جاري التحديث..."
+      },
+      "errors": {
+        "updateFailed": "خطأ في تحديث المعلومات التسلسلية",
+        "validationFailed": "خطأ في التحقق من صحة البيانات",
+        "serialNumberExists": "هذا الرقم التسلسلي مستخدم مسبقاً",
+        "elevatedPermissionsRequired": "تحتاج صلاحيات أعلى لتغيير الرقم التسلسلي للعناصر مع تاريخ إيجار",
+        "serialNumberChangeRestricted": "تغيير الرقم التسلسلي محدود لهذا العنصر",
+        "itemNotFound": "العنصر المطلوب غير موجود",
+        "insufficientPermissions": "لا تملك صلاحية كافية لتحرير المعلومات التسلسلية",
+        "confirmationRequired": "تأكيد تغيير الرقم التسلسلي مطلوب"
+      }
+    },
+    "nonSerialized": {
+      "title": "تحرير كمية المخزون",
+      "subtitle": "تعديل الكمية الإجمالية ووحدة العنصر غير التسلسلي",
+      "currentInfo": "المعلومات الحالية للعنصر",
+      "fields": {
+        "changeReason": "سبب تغيير الكمية",
+        "changeReasonRequired": "مطلوب للانخفاض الكبير",
+        "changeReasonPlaceholder": "اشرح سبب تغيير الكمية...",
+        "currentQuantity": "الكمية الحالية"
+      },
+      "changeSummary": {
+        "title": "ملخص التغييرات",
+        "currentQuantity": "الكمية الحالية",
+        "newQuantity": "الكمية الجديدة",
+        "difference": "الفرق"
+      },
+      "warnings": {
+        "significantReduction": "تحذير: انخفاض كبير في كمية المخزون (أكثر من ٥٠٪). يرجى تحديد سبب التغيير."
+      },
+      "validation": {
+        "quantityMin": "الكمية يجب ألا تكون سالبة",
+        "quantityInteger": "الكمية يجب أن تكون رقم صحيح",
+        "quantityUnitMaxLength": "الوحدة يجب ألا تزيد عن ٥٠ حرف",
+        "changeReasonMaxLength": "سبب التغيير يجب ألا يزيد عن ٥٠٠ حرف"
+      },
+      "actions": {
+        "update": "تحديث الكمية",
+        "updating": "جاري التحديث..."
+      },
+      "errors": {
+        "updateFailed": "خطأ في تحديث كمية المخزون",
+        "validationFailed": "خطأ في التحقق من صحة البيانات",
+        "quantityBelowAllocated": "الكمية الإجمالية لا يمكن أن تكون أقل من الكمية المخصصة",
+        "itemNotFound": "العنصر المطلوب غير موجود",
+        "insufficientPermissions": "لا تملك صلاحية كافية لتحرير كمية المخزون"
+      }
+    },
+    "accessDenied": "الوصول غير مسموح",
+    "accessDeniedDescription": "ليس لديك صلاحية للوصول إلى إدارة المخزون. يرجى التواصل مع مدير النظام."
+  },
+  "datePicker": {
+    "selectDate": "اختيار التاريخ",
+    "today": "اليوم",
+    "placeholder": "اختر التاريخ",
+    "clickToSelect": "انقر لاختيار التاريخ",
+    "months": {
+      "gregorian": [
+        "يناير", "فبراير", "مارس", "أبريل", "مايو", "يونيو",
+        "يوليو", "أغسطس", "سبتمبر", "أكتوبر", "نوفمبر", "ديسمبر"
+      ]
+    },
+    "weekdays": {
+      "gregorian": ["أ", "ث", "ث", "أ", "خ", "ج", "س"]
+    }
+  }
+}

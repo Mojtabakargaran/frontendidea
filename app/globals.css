@@ -1,0 +1,356 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 221.2 83.2% 53.3%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 222.2 84% 4.9%;
+    --muted: 210 40% 96%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 210 40% 96%;
+    --accent-foreground: 222.2 84% 4.9%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 221.2 83.2% 53.3%;
+    --radius: 0.75rem;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 217.2 91.2% 59.8%;
+    --primary-foreground: 222.2 84% 4.9%;
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 224.3 76.3% 94.1%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Enhanced gradient backgrounds */
+.gradient-bg-primary {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.gradient-bg-secondary {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+}
+
+.gradient-bg-success {
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+}
+
+.gradient-bg-auth {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+}
+
+.gradient-bg-subtle {
+  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+}
+
+.gradient-bg-dashboard {
+  background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+}
+
+/* Glass morphism effects with improved contrast */
+.glass-overlay {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.98);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+/* Enhanced card shadows */
+.card-shadow {
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.card-shadow-hover {
+  box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.15), 0 10px 20px -5px rgba(0, 0, 0, 0.1);
+}
+
+/* Animated gradients */
+@keyframes gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animated-gradient {
+  background: linear-gradient(-45deg, #667eea 0%, #764ba2 25%, #f093fb 50%, #f5576c 75%, #4facfe 100%);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes floating {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+.floating {
+  animation: floating 6s ease-in-out infinite;
+}
+
+/* Pulse effect */
+@keyframes pulse-glow {
+  0%, 100% { 
+    box-shadow: 0 0 5px rgba(102, 126, 234, 0.5);
+  }
+  50% { 
+    box-shadow: 0 0 20px rgba(102, 126, 234, 0.8), 0 0 30px rgba(102, 126, 234, 0.6);
+  }
+}
+
+.pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+/* Decorative elements */
+.decorative-blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(40px);
+  pointer-events: none;
+  z-index: -1;
+}
+
+.blob-1 {
+  width: 300px;
+  height: 300px;
+  background: linear-gradient(45deg, #667eea, #764ba2);
+  top: -150px;
+  right: -150px;
+  opacity: 0.3;
+}
+
+.blob-2 {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(45deg, #f093fb, #f5576c);
+  bottom: -100px;
+  left: -100px;
+  opacity: 0.2;
+}
+
+.blob-3 {
+  width: 150px;
+  height: 150px;
+  background: linear-gradient(45deg, #4facfe, #00f2fe);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.1;
+}
+
+/* RTL Support */
+[dir="rtl"] {
+  direction: rtl;
+}
+
+[dir="ltr"] {
+  direction: ltr;
+}
+
+/* Persian and Arabic font support */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700&display=swap');
+
+.font-persian {
+  font-family: 'Vazirmatn', sans-serif;
+}
+
+.font-english {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Custom scrollbar for RTL */
+[dir="rtl"] ::-webkit-scrollbar {
+  width: 8px;
+}
+
+[dir="rtl"] ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+[dir="rtl"] ::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 4px;
+}
+
+[dir="rtl"] ::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
+
+/* Accessibility enhancements for dashboard components */
+.dashboard-button-primary {
+  background: linear-gradient(135deg, #1e40af 0%, #7c3aed 50%, #1e3a8a 100%);
+  color: white;
+  border: 2px solid transparent;
+  font-weight: 600;
+  min-height: 44px;
+  transition: all 0.2s ease;
+}
+
+.dashboard-button-primary:hover {
+  background: linear-gradient(135deg, #1d4ed8 0%, #8b5cf6 50%, #1e40af 100%);
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4);
+  transform: translateY(-1px);
+}
+
+.dashboard-button-primary:focus {
+  outline: 3px solid rgba(59, 130, 246, 0.5);
+  outline-offset: 2px;
+}
+
+.dashboard-button-secondary {
+  background: rgba(255, 255, 255, 0.95);
+  color: #374151;
+  border: 2px solid rgba(75, 85, 99, 0.3);
+  font-weight: 500;
+  min-height: 44px;
+  backdrop-filter: blur(8px);
+  transition: all 0.2s ease;
+}
+
+.dashboard-button-secondary:hover {
+  background: rgba(255, 255, 255, 1);
+  border-color: rgba(75, 85, 99, 0.5);
+  color: #111827;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-button-secondary:focus {
+  outline: 3px solid rgba(75, 85, 99, 0.5);
+  outline-offset: 2px;
+}
+
+.dashboard-input {
+  background: rgba(255, 255, 255, 0.98);
+  border: 2px solid rgba(107, 114, 128, 0.3);
+  color: #111827;
+  font-weight: 500;
+  min-height: 44px;
+  backdrop-filter: blur(8px);
+  transition: all 0.2s ease;
+}
+
+.dashboard-input:focus {
+  border-color: #3b82f6;
+  background: rgba(255, 255, 255, 1);
+  outline: 3px solid rgba(59, 130, 246, 0.2);
+  outline-offset: 1px;
+}
+
+.dashboard-input::placeholder {
+  color: #6b7280;
+  font-weight: 400;
+}
+
+.dashboard-card {
+  background: rgba(255, 255, 255, 0.98);
+  border: 1px solid rgba(229, 231, 235, 0.6);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+}
+
+.dashboard-text-primary {
+  color: #111827;
+  font-weight: 600;
+}
+
+.dashboard-text-secondary {
+  color: #374151;
+  font-weight: 500;
+}
+
+.dashboard-text-muted {
+  color: #6b7280;
+  font-weight: 400;
+}
+
+/* Table checkbox alignment for RTL/LTR support */
+.table-checkbox-cell {
+  padding: 1rem;
+  vertical-align: middle;
+}
+
+.table-checkbox-cell[data-rtl="true"] {
+  text-align: right;
+}
+
+.table-checkbox-cell[data-rtl="false"] {
+  text-align: left;
+}
+
+/* Override shadcn/ui table checkbox padding for proper RTL alignment */
+[dir="rtl"] th:has([role="checkbox"]),
+[dir="rtl"] td:has([role="checkbox"]) {
+  padding-left: 0;
+  padding-right: 1rem;
+}
+
+[dir="ltr"] th:has([role="checkbox"]),
+[dir="ltr"] td:has([role="checkbox"]) {
+  padding-right: 0;
+  padding-left: 1rem;
+}
+
+/* Ensure checkbox alignment within cells */
+[dir="rtl"] .table-checkbox-cell [role="checkbox"] {
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+[dir="ltr"] .table-checkbox-cell [role="checkbox"] {
+  display: block;
+  margin-right: auto;
+  margin-left: 0;
+}
+
+/* Fix for Checkbox component to properly align in both directions */
+.table-checkbox-cell button[role="checkbox"] {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}

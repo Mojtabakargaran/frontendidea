@@ -1,0 +1,1575 @@
+{
+  "auth": {
+    "registration": {
+      "title": "ثبت‌نام در سامانین",
+      "subtitle": "برای ایجاد حساب کاربری جدید فرم زیر را تکمیل کنید",
+      "form": {
+        "fullName": {
+          "label": "نام و نام خانوادگی",
+          "placeholder": "نام و نام خانوادگی خود را وارد کنید"
+        },
+        "email": {
+          "label": "آدرس ایمیل",
+          "placeholder": "example@domain.com"
+        },
+        "password": {
+          "label": "رمز عبور",
+          "placeholder": "رمز عبور را وارد کنید"
+        },
+        "confirmPassword": {
+          "label": "تأیید رمز عبور",
+          "placeholder": "رمز عبور را مجدداً وارد کنید"
+        },
+        "companyName": {
+          "label": "نام شرکت/کسب‌وکار",
+          "placeholder": "نام شرکت یا کسب‌وکار خود را وارد کنید"
+        },
+        "language": {
+          "label": "زبان سیستم",
+          "persian": "فارسی",
+          "arabic": "عربی"
+        },
+        "locale": {
+          "label": "منطقه",
+          "iran": "ایران",
+          "uae": "امارات متحده عربی"
+        }
+      },
+      "buttons": {
+        "submit": "ثبت‌نام",
+        "submitting": "در حال ثبت‌نام...",
+        "backToLogin": "بازگشت به ورود"
+      },
+      "messages": {
+        "success": "ثبت‌نام با موفقیت انجام شد. لطفاً ایمیل خود را برای تأیید بررسی کنید.",
+        "successEmailDelayed": "ثبت‌نام با موفقیت انجام شد. ایمیل تأیید ممکن است با تأخیر ارسال شود.",
+        "redirecting": "در حال انتقال به صفحه ورود..."
+      }
+    },
+    "login": {
+      "title": "ورود به سامانین",
+      "subtitle": "برای ورود به حساب کاربری خود اطلاعات زیر را وارد کنید",
+      "form": {
+        "email": {
+          "label": "آدرس ایمیل",
+          "placeholder": "example@domain.com"
+        },
+        "password": {
+          "label": "رمز عبور",
+          "placeholder": "رمز عبور خود را وارد کنید"
+        },
+        "rememberMe": {
+          "label": "مرا به خاطر بسپار (30 روز)"
+        }
+      },
+      "buttons": {
+        "submit": "ورود",
+        "submitting": "در حال ورود...",
+        "forgotPassword": "رمز عبور را فراموش کرده‌اید؟",
+        "backToRegister": "ثبت‌نام جدید"
+      },
+      "messages": {
+        "success": "ورود با موفقیت انجام شد",
+        "invalidCredentials": "ایمیل یا رمز عبور اشتباه است",
+        "accountLocked": "حساب کاربری به دلیل تلاش‌های متعدد موقتاً قفل شده است",
+        "rateLimitExceeded": "تعداد تلاش‌های ورود زیاد بوده است. لطفاً ۱۵ دقیقه دیگر تلاش کنید"
+      }
+    },
+    "logout": {
+      "confirm": "آیا از خروج اطمینان دارید؟",
+      "success": "خروج با موفقیت انجام شد"
+    },
+    "passwordReset": {
+      "request": {
+        "title": "بازیابی رمز عبور",
+        "subtitle": "آدرس ایمیل خود را وارد کنید تا لینک بازیابی رمز عبور برای شما ارسال شود",
+        "form": {
+          "email": {
+            "label": "آدرس ایمیل",
+            "placeholder": "example@domain.com"
+          }
+        },
+        "buttons": {
+          "submit": "ارسال لینک بازیابی",
+          "submitting": "در حال ارسال...",
+          "backToLogin": "بازگشت به ورود"
+        },
+        "messages": {
+          "success": "لینک بازیابی رمز عبور برای شما ارسال شد. لطفاً ایمیل خود را بررسی کنید."
+        }
+      },
+      "complete": {
+        "title": "تنظیم رمز عبور جدید",
+        "subtitle": "رمز عبور جدید خود را وارد کنید",
+        "form": {
+          "password": {
+            "label": "رمز عبور جدید",
+            "placeholder": "رمز عبور جدید را وارد کنید"
+          },
+          "newPassword": {
+            "label": "رمز عبور جدید",
+            "placeholder": "رمز عبور جدید را وارد کنید"
+          },
+          "confirmPassword": {
+            "label": "تأیید رمز عبور جدید",
+            "placeholder": "رمز عبور جدید را مجدداً وارد کنید"
+          }
+        },
+        "buttons": {
+          "submit": "تنظیم رمز عبور",
+          "submitting": "در حال تنظیم...",
+          "backToLogin": "بازگشت به ورود"
+        },
+        "messages": {
+          "success": "رمز عبور با موفقیت تغییر یافت. اکنون می‌توانید وارد شوید.",
+          "tokenExpired": "لینک بازیابی منقضی شده است. لطفاً دوباره درخواست دهید.",
+          "tokenInvalid": "لینک بازیابی معتبر نیست."
+        }
+      }
+    },
+    "passwordChange": {
+      "mandatory": {
+        "title": "تغییر رمز عبور اجباری",
+        "subtitle": "برای ادامه استفاده از سیستم، لطفاً رمز عبور جدید تنظیم کنید",
+        "buttons": {
+          "submit": "تنظیم رمز عبور جدید",
+          "submitting": "در حال تنظیم..."
+        },
+        "messages": {
+          "redirecting": "در حال انتقال به صفحه ورود..."
+        }
+      }
+    },
+    "emailVerification": {
+      "title": "تأیید آدرس ایمیل",
+      "subtitle": "در حال تأیید آدرس ایمیل شما...",
+      "messages": {
+        "success": "آدرس ایمیل با موفقیت تأیید شد!",
+        "successSubtitle": "اکنون می‌توانید وارد حساب کاربری خود شوید.",
+        "invalidToken": "لینک تأیید نامعتبر است",
+        "expiredToken": "لینک تأیید منقضی شده است",
+        "alreadyVerified": "آدرس ایمیل قبلاً تأیید شده است",
+        "tooManyAttempts": "تعداد تلاش‌های زیادی انجام شده است. لطفاً ۱۵ دقیقه بعد مجدداً تلاش کنید.",
+        "verificationUnavailable": "تأیید ایمیل موقتاً در دسترس نیست",
+        "verificationSent": "ایمیل تأیید جدید ارسال شد",
+        "errorOccurred": "خطایی در فرآیند تأیید رخ داد"
+      },
+      "buttons": {
+        "goToLogin": "ورود به حساب کاربری",
+        "resendEmail": "ارسال مجدد ایمیل تأیید",
+        "resending": "در حال ارسال...",
+        "tryAgain": "تلاش مجدد"
+      },
+      "resendForm": {
+        "title": "ارسال مجدد ایمیل تأیید",
+        "subtitle": "آدرس ایمیل خود را وارد کنید تا ایمیل تأیید جدید ارسال شود",
+        "email": {
+          "label": "آدرس ایمیل",
+          "placeholder": "example@domain.com"
+        },
+        "submit": "ارسال ایمیل تأیید"
+      }
+    }
+  },
+  "validation": {
+    "required": "این فیلد الزامی است",
+    "email": {
+      "invalid": "آدرس ایمیل معتبر نیست",
+      "alreadyExists": "این ایمیل قبلاً ثبت شده است"
+    },
+    "password": {
+      "minLength": "رمز عبور باید حداقل ۸ کاراکتر باشد",
+      "policyViolation": "رمز عبور باید شامل حروف بزرگ، کوچک، عدد و کاراکتر ویژه باشد",
+      "confirmationMismatch": "رمز عبور و تأیید آن مطابقت ندارند"
+    },
+    "name": {
+      "minLength": "نام باید حداقل ۲ کاراکتر باشد",
+      "maxLength": "نام نمی‌تواند بیش از ۱۰۰ کاراکتر باشد"
+    },
+    "companyName": {
+      "minLength": "نام شرکت باید حداقل ۲ کاراکتر باشد",
+      "maxLength": "نام شرکت نمی‌تواند بیش از ۲۰۰ کاراکتر باشد"
+    }
+  },
+  "errors": {
+    "generic": "خطایی رخ داده است. لطفاً دوباره تلاش کنید.",
+    "network": "مشکل در اتصال به اینترنت. لطفاً اتصال خود را بررسی کنید.",
+    "serverUnavailable": "سرویس موقتاً در دسترس نیست. لطفاً بعداً تلاش کنید.",
+    "tenantCreationFailed": "ایجاد سازمان با مشکل مواجه شد",
+    "databaseError": "خطا در پایگاه داده",
+    "users.PASSWORD_RESET_RATE_LIMITED": "تعداد درخواست‌های بازنشانی رمز عبور از حد مجاز فراتر رفته است. لطفاً بعداً تلاش کنید.",
+    "users.PASSWORD_RESET_SELF_ATTEMPT": "شما نمی‌توانید رمز عبور خود را از این طریق بازنشانی کنید. از گزینه تغییر رمز عبور استفاده کنید.",
+    "users.PASSWORD_RESET_USER_DEACTIVATED": "حساب کاربری غیرفعال است. ابتدا حساب را فعال کنید.",
+    "users.PASSWORD_RESET_INSUFFICIENT_PERMISSIONS": "شما مجوز بازنشانی رمز عبور این کاربر را ندارید.",
+    "users.PASSWORD_RESET_FAILED": "بازنشانی رمز عبور ناموفق بود. لطفاً دوباره تلاش کنید.",
+    "users.PASSWORD_RESET_EMAIL_FAILED": "ارسال ایمیل اعلان ناموفق بود، اما رمز عبور بازنشانی شد.",
+    "users.ROLES_RETRIEVED_SUCCESS": "نقش‌ها با موفقیت بارگذاری شدند.",
+    "users.INSUFFICIENT_PERMISSIONS": "شما مجوز دسترسی به این بخش را ندارید.",
+    "errors.USER_NOT_FOUND": "کاربر مورد نظر یافت نشد.",
+    "auth.SESSION_EXPIRED": "جلسه شما منقضی شده است. لطفاً مجدداً وارد شوید."
+  },
+  "common": {
+    "loading": "در حال بارگذاری...",
+    "submit": "ارسال",
+    "cancel": "انصراف",
+    "close": "بستن",
+    "yes": "بله",
+    "no": "خیر",
+    "ok": "تأیید",
+    "retry": "تلاش مجدد",
+    "showPassword": "نمایش رمز عبور",
+    "hidePassword": "مخفی کردن رمز عبور",
+    "error": "خطا",
+    "success": "موفق",
+    "previous": "قبلی",
+    "next": "بعدی",
+    "reset": "بازنشانی",
+    "refresh": "به‌روزرسانی",
+    "filters": "فیلترها",
+    "all": "همه",
+    "goBack": "بازگشت",
+    "backToDashboard": "بازگشت به داشبورد",
+    "today": "امروز",
+    "openCalendar": "باز کردن تقویم",
+    "pagination": {
+      "showing": "نمایش {{start}} تا {{end}} از {{total}}",
+      "previous": "قبلی",
+      "next": "بعدی"
+    },
+    "roles": {
+      "tenant_owner": "مالک سازمان",
+      "admin": "مدیر سیستم",
+      "manager": "مدیر عملیات",
+      "employee": "کارمند",
+      "staff": "پرسنل"
+    },
+    "status": {
+      "active": "فعال",
+      "inactive": "غیرفعال",
+      "pending_verification": "در انتظار تأیید",
+      "suspended": "معلق"
+    },
+    "confirmations": {
+      "terminateSession": "آیا از لغو این نشست اطمینان دارید؟"
+    }
+  },
+  "ui": {
+    "languageSelector": {
+      "label": "انتخاب زبان",
+      "persian": "فارسی",
+      "arabic": "عربی"
+    }
+  },
+  "dashboard": {
+    "title": "داشبورد",
+    "welcome": "خوش آمدید",
+    "loading": "در حال بارگذاری داشبورد...",
+    "futureModules": "ماژول‌های آینده",
+    "tenantIdDescription": "معرف سازمان",
+    "contactSupportForActivation": "لطفاً برای فعال‌سازی حساب با پشتیبانی تماس بگیرید.",
+    "header": {
+      "userMenu": "منوی کاربر",
+      "logout": "خروج"
+    },
+    "navigation": {
+      "dashboard": "داشبورد",
+      "users": "مدیریت کاربران",
+      "inventory": "مدیریت موجودی",
+      "categories": "دسته بندی ها",
+      "customers": "مدیریت مشتریان",
+      "rentals": "مدیریت اجاره",
+      "reports": "گزارشات",
+      "audit": "پیگیری امنیتی",
+      "permissions": "مدیریت مجوزها",
+      "comingSoon": "به زودی"
+    },
+    "info": {
+      "companyName": "نام شرکت",
+      "registrationDate": "تاریخ ثبت‌نام",
+      "userCount": "تعداد کاربران",
+      "status": "وضعیت",
+      "tenantId": "شناسه سازمان",
+      "lastLogin": "آخرین ورود",
+      "role": "نقش",
+      "systemVersion": "نسخه سیستم",
+      "lastUpdate": "آخرین بروزرسانی",
+      "serviceStatus": "وضعیت سرویس"
+    },
+    "status": {
+      "active": "فعال",
+      "inactive": "غیرفعال",
+      "operational": "در حال کار",
+      "maintenance": "در حال تعمیر"
+    },
+    "roles": {
+      "tenant_owner": "مالک سازمان",
+      "admin": "مدیر سیستم",
+      "manager": "مدیر عملیات",
+      "employee": "کارمند",
+      "staff": "پرسنل"
+    },
+    "messages": {
+      "sessionExpired": "جلسه منقضی شده است. لطفاً دوباره وارد شوید.",
+      "tenantInactive": "حساب موقتاً غیرفعال است. لطفاً با پشتیبانی تماس بگیرید.",
+      "loadingError": "خطا در بارگذاری داده‌ها. لطفاً دوباره تلاش کنید.",
+      "contactSupport": "تماس با پشتیبانی"
+    },
+    "modules": {
+      "inventory": {
+        "title": "مدیریت موجودی",
+        "description": "مدیریت اقلام قابل اجاره"
+      },
+      "customers": {
+        "title": "مدیریت مشتریان",
+        "description": "مدیریت اطلاعات مشتریان"
+      },
+      "rentals": {
+        "title": "مدیریت اجاره",
+        "description": "مدیریت قراردادها و اجاره‌ها"
+      },
+      "reports": {
+        "title": "گزارشات",
+        "description": "گزارشات مالی و عملکرد"
+      },
+      "users": "مدیریت کاربران"
+    }
+  },
+  "users": {
+    "list": {
+      "title": "مدیریت کاربران",
+      "subtitle": "مدیریت حساب‌های کاربری در سازمان",
+      "create_user": "ایجاد کاربر جدید",
+      "total_users": "مجموع {{count}} کاربر",
+      "results_summary": "نمایش {{showing}} از {{total}} کاربر (صفحه {{page}} از {{totalPages}})",
+      "loading": "در حال بارگذاری فهرست کاربران...",
+      "load_error": "خطا در بارگذاری فهرست کاربران",
+      "no_users": {
+        "title": "هنوز کاربری وجود ندارد",
+        "description": "اولین کاربر خود را ایجاد کنید"
+      },
+      "no_results": {
+        "title": "کاربری یافت نشد",
+        "description": "کاربری با معیارهای جستجوی شما یافت نشد. لطفاً فیلترها را تغییر دهید یا پاک کنید."
+      },
+      "create_first_user": "ایجاد اولین کاربر",
+      "never_logged_in": "هرگز وارد نشده",
+      "search": {
+        "placeholder": "جستجو بر اساس نام یا ایمیل..."
+      },
+      "filters": {
+        "toggle": "فیلترها",
+        "clear": "پاک کردن فیلترها",
+        "status": {
+          "label": "وضعیت حساب",
+          "all": "همه وضعیت‌ها"
+        },
+        "role": {
+          "label": "نقش کاربر",
+          "all": "همه نقش‌ها"
+        },
+        "sort": {
+          "label": "مرتب‌سازی"
+        }
+      },
+      "headers": {
+        "fullName": "نام کامل",
+        "email": "ایمیل",
+        "phone": "تلفن",
+        "role": "نقش",
+        "status": "وضعیت",
+        "lastLogin": "آخرین ورود",
+        "actions": "عملیات"
+      },
+      "actions": {
+        "edit": "ویرایش کاربر",
+        "resetPassword": "بازنشانی رمز عبور",
+        "deactivate": "غیرفعال‌سازی",
+        "reactivate": "فعال‌سازی"
+      },
+      "bulkActions": {
+        "selected": "{{count}} کاربر انتخاب شده",
+        "deactivate": "غیرفعال‌سازی",
+        "reactivate": "فعال‌سازی",
+        "clear": "لغو انتخاب"
+      },
+      "sort": {
+        "fullName_asc": "نام کامل (الف تا ی)",
+        "fullName_desc": "نام کامل (ی تا الف)",
+        "email_asc": "ایمیل (الف تا ی)",
+        "email_desc": "ایمیل (ی تا الف)",
+        "createdAt_asc": "تاریخ ایجاد (قدیمی‌ترین)",
+        "createdAt_desc": "تاریخ ایجاد (جدیدترین)",
+        "lastLoginAt_asc": "آخرین ورود (قدیمی‌ترین)",
+        "lastLoginAt_desc": "آخرین ورود (جدیدترین)",
+        "status_asc": "وضعیت (الف تا ی)",
+        "status_desc": "وضعیت (ی تا الف)"
+      },
+      "pagination_info": "صفحه {{current}} از {{total}} - نمایش {{showing}} از {{totalItems}} کاربر",
+      "page_info": "صفحه {{current}} از {{total}}"
+    },
+    "create": {
+      "title": "ایجاد کاربر جدید",
+      "back_to_list": "بازگشت به فهرست کاربران",
+      "roles_load_error": "خطا در بارگذاری نقش‌ها",
+      "form": {
+        "fullName": {
+          "label": "نام و نام خانوادگی",
+          "placeholder": "نام کامل کاربر را وارد کنید"
+        },
+        "email": {
+          "label": "آدرس ایمیل",
+          "placeholder": "example@domain.com"
+        },
+        "phoneNumber": {
+          "label": "شماره تلفن (اختیاری)",
+          "placeholder": "+98 912 345 6789"
+        },
+        "role": {
+          "label": "نقش کاربر",
+          "placeholder": "نقش مورد نظر را انتخاب کنید"
+        },
+        "password": {
+          "label": "رمز عبور",
+          "placeholder": "رمز عبور را وارد کنید"
+        },
+        "generatePassword": {
+          "label": "تولید خودکار رمز عبور"
+        },
+        "status": {
+          "label": "حساب کاربری فعال باشد"
+        }
+      },
+      "buttons": {
+        "create": "ایجاد کاربر",
+        "creating": "در حال ایجاد..."
+      },
+      "success": {
+        "title": "کاربر با موفقیت ایجاد شد",
+        "message": "حساب کاربری {{name}} با موفقیت ایجاد شد.",
+        "generated_password": "رمز عبور تولید شده:",
+        "password_note": "این رمز عبور را در جای امن نگه دارید و به کاربر ارائه دهید.",
+        "welcome_email_sent": "ایمیل خوش‌آمدگویی ارسال شد",
+        "back_to_list": "بازگشت به فهرست کاربران"
+      }
+    },
+    "edit": {
+      "title": "ویرایش اطلاعات کاربر",
+      "subtitle": "ویرایش اطلاعات پروفایل کاربر",
+      "back_to_list": "بازگشت به فهرست کاربران",
+      "current_info": "اطلاعات فعلی کاربر",
+      "roles_load_error": "خطا در بارگذاری نقش‌ها",
+      "form": {
+        "title": "فرم ویرایش کاربر",
+        "fullName": {
+          "label": "نام و نام خانوادگی",
+          "placeholder": "نام کامل کاربر را وارد کنید",
+          "errors": {
+            "min_length": "نام باید حداقل ۲ کاراکتر باشد",
+            "max_length": "نام نمی‌تواند بیش از ۱۰۰ کاراکتر باشد"
+          }
+        },
+        "email": {
+          "label": "آدرس ایمیل",
+          "readonly_note": "آدرس ایمیل قابل تغییر نیست"
+        },
+        "phoneNumber": {
+          "label": "شماره تلفن (اختیاری)",
+          "placeholder": "+98 912 345 6789",
+          "errors": {
+            "invalid_format": "فرمت شماره تلفن معتبر نیست"
+          }
+        },
+        "role": {
+          "label": "نقش کاربر",
+          "placeholder": "نقش مورد نظر را انتخاب کنید",
+          "loading": "در حال بارگذاری نقش‌ها..."
+        },
+        "currentStatus": {
+          "label": "وضعیت فعلی"
+        },
+        "status": {
+          "label": "وضعیت حساب کاربری",
+          "active_label": "حساب فعال",
+          "active_description": "کاربر دسترسی کامل به سیستم دارد"
+        },
+        "submit": "ذخیره تغییرات",
+        "submitting": "در حال ذخیره...",
+        "no_changes_note": "برای ذخیره تغییرات، ابتدا اطلاعاتی را تغییر دهید",
+        "errors": {
+          "no_changes": "هیچ تغییری اعمال نشده است"
+        }
+      },
+      "success": {
+        "title": "اطلاعات کاربر با موفقیت به‌روزرسانی شد",
+        "message": "اطلاعات کاربر {{name}} با موفقیت به‌روزرسانی شد.",
+        "modified_fields": "فیلدهای تغییر یافته:",
+        "notification_sent": "اعلان تغییرات به کاربر ارسال شد",
+        "back_to_list": "بازگشت به فهرست کاربران"
+      }
+    },
+    "resetPassword": {
+      "title": "بازنشانی رمز عبور کاربر",
+      "subtitle": "انتخاب روش بازنشانی رمز عبور برای کاربر",
+      "userInfo": {
+        "title": "اطلاعات کاربر",
+        "name": "نام",
+        "email": "ایمیل",
+        "role": "نقش",
+        "lastLogin": "آخرین ورود"
+      },
+      "methods": {
+        "title": "روش بازنشانی رمز عبور را انتخاب کنید",
+        "temporaryPassword": {
+          "title": "تولید رمز عبور موقت",
+          "description": "رمز عبور موقت تولید می‌شود و برای شما نمایش داده می‌شود. کاربر باید در اولین ورود رمز عبور را تغییر دهد.",
+          "features": {
+            "immediate": "فوری",
+            "expires24h": "انقضا ۲۴ ساعته",
+            "forceChange": "اجبار به تغییر"
+          }
+        },
+        "resetLink": {
+          "title": "ارسال لینک بازنشانی",
+          "description": "لینک امن بازنشانی رمز عبور به ایمیل کاربر ارسال می‌شود. کاربر خودش رمز عبور جدید را انتخاب می‌کند.",
+          "features": {
+            "secure": "امن",
+            "userChoice": "انتخاب کاربر",
+            "expires24h": "انقضا ۲۴ ساعته"
+          }
+        }
+      },
+      "confirmation": {
+        "temporaryPassword": "آیا مطمئن هستید که می‌خواهید رمز عبور موقت برای این کاربر تولید کنید؟",
+        "resetLink": "آیا مطمئن هستید که می‌خواهید لینک بازنشانی رمز عبور برای این کاربر ارسال کنید؟",
+        "consequences": {
+          "title": "پیامدهای این عملیات:",
+          "invalidateSessions": "تمام جلسات فعلی کاربر باطل خواهد شد",
+          "emailNotification": "اعلان ایمیلی به کاربر ارسال می‌شود",
+          "auditLog": "این عملیات در سوابق سیستم ثبت می‌شود",
+          "temporaryExpiry": "رمز عبور موقت پس از ۲۴ ساعت منقضی می‌شود"
+        }
+      },
+      "success": {
+        "message": "بازنشانی رمز عبور با موفقیت انجام شد",
+        "details": {
+          "title": "جزئیات عملیات",
+          "method": "روش",
+          "expiresAt": "تاریخ انقضا",
+          "emailSent": "ارسال ایمیل",
+          "emailSentYes": "ارسال شد",
+          "emailSentNo": "ارسال نشد",
+          "sessionsInvalidated": "جلسات باطل شده"
+        },
+        "temporaryPassword": {
+          "title": "رمز عبور موقت",
+          "copy": "کپی",
+          "copied": "کپی شد",
+          "warning": "این رمز عبور را در جای امن نگه‌داری کرده و به کاربر ارائه دهید. کاربر باید در اولین ورود آن را تغییر دهد."
+        }
+      },
+      "buttons": {
+        "cancel": "انصراف",
+        "back": "بازگشت",
+        "confirmReset": "تأیید بازنشانی",
+        "resetting": "در حال بازنشانی...",
+        "close": "بستن"
+      }
+    },
+    "statusChange": {
+      "single": {
+        "deactivate": {
+          "title": "غیرفعال‌سازی حساب کاربری",
+          "description": "غیرفعال‌سازی حساب کاربری {{name}}"
+        },
+        "reactivate": {
+          "title": "فعال‌سازی حساب کاربری",
+          "description": "فعال‌سازی حساب کاربری {{name}}"
+        }
+      },
+      "bulk": {
+        "deactivate": {
+          "title": "غیرفعال‌سازی چندگانه حساب‌های کاربری",
+          "description": "غیرفعال‌سازی {{count}} حساب کاربری"
+        },
+        "reactivate": {
+          "title": "فعال‌سازی چندگانه حساب‌های کاربری",
+          "description": "فعال‌سازی {{count}} حساب کاربری"
+        },
+        "summary": {
+          "title": "خلاصه عملیات گروهی",
+          "description": "{{count}} کاربر انتخاب شده و {{action}} خواهد شد",
+          "deactivated": "غیرفعال",
+          "reactivated": "فعال"
+        }
+      },
+      "confirmation": {
+        "single": {
+          "deactivate": {
+            "title": "تأیید غیرفعال‌سازی حساب",
+            "description": "آیا مطمئن هستید که می‌خواهید این حساب کاربری را غیرفعال کنید؟"
+          },
+          "reactivate": {
+            "title": "تأیید فعال‌سازی حساب",
+            "description": "آیا مطمئن هستید که می‌خواهید این حساب کاربری را فعال کنید؟"
+          }
+        },
+        "bulk": {
+          "deactivate": {
+            "title": "تأیید غیرفعال‌سازی چندگانه",
+            "description": "آیا مطمئن هستید که می‌خواهید {{count}} حساب کاربری را غیرفعال کنید؟"
+          },
+          "reactivate": {
+            "title": "تأیید فعال‌سازی چندگانه",
+            "description": "آیا مطمئن هستید که می‌خواهید {{count}} حساب کاربری را فعال کنید؟"
+          }
+        },
+        "reason": "دلیل تغییر وضعیت:",
+        "cancel": "انصراف",
+        "deactivate": "غیرفعال‌سازی",
+        "reactivate": "فعال‌سازی",
+        "processing": "در حال پردازش..."
+      },
+      "impact": {
+        "single": {
+          "deactivate": "این کاربر فوراً دسترسی خود را از دست خواهد داد و تمام جلسات فعلی‌اش باطل می‌شود. داده‌های تاریخی حفظ خواهد شد.",
+          "reactivate": "این کاربر فوراً دسترسی کامل به سیستم پیدا خواهد کرد و می‌تواند وارد شود."
+        },
+        "bulk": {
+          "deactivate": "این کاربران فوراً دسترسی خود را از دست خواهند داد و تمام جلسات فعلی‌شان باطل می‌شود. داده‌های تاریخی حفظ خواهد شد.",
+          "reactivate": "این کاربران فوراً دسترسی کامل به سیستم پیدا خواهند کرد و می‌توانند وارد شوند."
+        }
+      },
+      "reason": {
+        "label": "دلیل تغییر وضعیت",
+        "optional": "اختیاری",
+        "placeholder": "دلیل تغییر وضعیت حساب را بنویسید...",
+        "help": "این دلیل در سوابق سیستم ثبت و به کاربر اطلاع داده می‌شود."
+      },
+      "success": {
+        "deactivation": {
+          "title": "حساب با موفقیت غیرفعال شد"
+        },
+        "reactivation": {
+          "title": "حساب با موفقیت فعال شد"
+        },
+        "single": {
+          "description": "وضعیت حساب کاربری {{name}} با موفقیت تغییر کرد."
+        },
+        "bulk": {
+          "description": "وضعیت {{count}} حساب کاربری با موفقیت تغییر کرد."
+        },
+        "details": {
+          "newStatus": "وضعیت جدید",
+          "previousStatus": "وضعیت قبلی",
+          "timestamp": "زمان تغییر",
+          "affectedUsers": "کاربران متأثر",
+          "sessionsInvalidated": "جلسات باطل شده",
+          "reason": "دلیل"
+        },
+        "emailSent": "اعلان ایمیلی به کاربران ارسال شد",
+        "emailFailed": "ارسال اعلان ایمیلی ناموفق بود",
+        "close": "بستن"
+      },
+      "cancel": "انصراف",
+      "deactivate": "غیرفعال‌سازی",
+      "reactivate": "فعال‌سازی"
+    },
+    "status": {
+      "active": "فعال",
+      "inactive": "غیرفعال",
+      "pending_verification": "در انتظار تأیید",
+      "suspended": "معلق"
+    },
+    "validation": {
+      "FULL_NAME_TOO_SHORT": "نام باید حداقل ۲ کاراکتر باشد",
+      "FULL_NAME_TOO_LONG": "نام نمی‌تواند بیش از ۱۰۰ کاراکتر باشد",
+      "INVALID_EMAIL_FORMAT": "فرمت ایمیل معتبر نیست",
+      "INVALID_PHONE_NUMBER_FORMAT": "فرمت شماره تلفن معتبر نیست",
+      "PASSWORD_TOO_SHORT": "رمز عبور باید حداقل ۸ کاراکتر باشد",
+      "PASSWORD_MISSING_LOWERCASE": "رمز عبور باید شامل حداقل یک حرف کوچک باشد",
+      "PASSWORD_MISSING_UPPERCASE": "رمز عبور باید شامل حداقل یک حرف بزرگ باشد",
+      "PASSWORD_MISSING_NUMBER": "رمز عبور باید شامل حداقل یک عدد باشد",
+      "PASSWORD_MISSING_SPECIAL": "رمز عبور باید شامل حداقل یک کاراکتر خاص باشد",
+      "ROLE_REQUIRED": "انتخاب نقش الزامی است"
+    }
+  },
+  "locale": {
+    "formatting": {
+      "loading": "در حال بارگذاری تنظیمات قالب‌بندی...",
+      "error": "خطا در بارگذاری تنظیمات قالب‌بندی",
+      "calendar": {
+        "persian": "تقویم فارسی",
+        "gregorian": "تقویم میلادی"
+      },
+      "digits": {
+        "persian": "اعداد فارسی",
+        "arabic": "اعداد عربی",
+        "latin": "اعداد لاتین"
+      },
+      "currency": {
+        "irr": "ریال ایران",
+        "aed": "درهم امارات"
+      }
+    }
+  },
+  "profile": {
+    "navigation": {
+      "title": "پروفایل",
+      "overview": "اطلاعات کلی",
+      "edit": "ویرایش پروفایل",
+      "password": "تغییر رمز عبور",
+      "sessions": "مدیریت نشست‌ها",
+      "activity": "فعالیت‌های حساب"
+    },
+    "overview": {
+      "title": "اطلاعات پروفایل",
+      "subtitle": "اطلاعات حساب کاربری شما",
+      "sections": {
+        "basicInfo": "اطلاعات پایه",
+        "accountInfo": "اطلاعات حساب",
+        "securityInfo": "اطلاعات امنیتی"
+      },
+      "fields": {
+        "fullName": "نام و نام خانوادگی",
+        "email": "آدرس ایمیل",
+        "phoneNumber": "شماره تلفن",
+        "role": "نقش",
+        "status": "وضعیت حساب",
+        "lastLogin": "آخرین ورود",
+        "lastLoginIp": "آی‌پی آخرین ورود",
+        "createdAt": "تاریخ ایجاد حساب",
+        "noPhoneNumber": "شماره تلفن ثبت نشده",
+        "noLastLogin": "هنوز وارد نشده‌اید"
+      },
+      "buttons": {
+        "editProfile": "ویرایش پروفایل",
+        "changePassword": "تغییر رمز عبور"
+      }
+    },
+    "edit": {
+      "title": "ویرایش پروفایل",
+      "subtitle": "ویرایش اطلاعات قابل تغییر حساب کاربری",
+      "form": {
+        "fullName": {
+          "label": "نام و نام خانوادگی",
+          "placeholder": "نام و نام خانوادگی خود را وارد کنید"
+        },
+        "phoneNumber": {
+          "label": "شماره تلفن",
+          "placeholder": "+98 912 345 6789"
+        }
+      },
+      "restrictedFieldNote": {
+        "title": "توجه:",
+        "message": "آدرس ایمیل، نقش و وضعیت حساب قابل تغییر نیستند و باید توسط مدیر سیستم تغییر داده شوند."
+      },
+      "buttons": {
+        "save": "ذخیره تغییرات",
+        "saving": "در حال ذخیره...",
+        "cancel": "انصراف"
+      },
+      "messages": {
+        "success": "پروفایل با موفقیت به‌روزرسانی شد",
+        "noChanges": "هیچ تغییری انجام نشده است"
+      }
+    },
+    "changePassword": {
+      "title": "تغییر رمز عبور",
+      "subtitle": "برای تغییر رمز عبور، رمز فعلی و رمز جدید را وارد کنید",
+      "form": {
+        "currentPassword": {
+          "label": "رمز عبور فعلی",
+          "placeholder": "رمز عبور فعلی خود را وارد کنید"
+        },
+        "newPassword": {
+          "label": "رمز عبور جدید",
+          "placeholder": "رمز عبور جدید را وارد کنید"
+        },
+        "confirmPassword": {
+          "label": "تأیید رمز عبور جدید",
+          "placeholder": "رمز عبور جدید را مجدداً وارد کنید"
+        }
+      },
+      "buttons": {
+        "change": "تغییر رمز عبور",
+        "changing": "در حال تغییر...",
+        "cancel": "انصراف"
+      },
+      "messages": {
+        "success": "رمز عبور با موفقیت تغییر کرد",
+        "sessionsInvalidated": "{{count}} نشست دیگر نیز لغو شد"
+      }
+    },
+    "sessions": {
+      "title": "مدیریت نشست‌ها",
+      "subtitle": "مدیریت نشست‌های فعال حساب کاربری",
+      "current": "نشست فعلی",
+      "other": "نشست‌های دیگر",
+      "fields": {
+        "ipAddress": "آدرس IP",
+        "userAgent": "مرورگر",
+        "lastActivity": "آخرین فعالیت",
+        "expires": "انقضاء"
+      },
+      "buttons": {
+        "terminate": "لغو نشست",
+        "terminateAll": "لغو همه نشست‌های دیگر",
+        "refresh": "به‌روزرسانی"
+      },
+      "messages": {
+        "sessionTerminated": "نشست با موفقیت لغو شد",
+        "noOtherSessions": "نشست فعال دیگری وجود ندارد"
+      }
+    },
+    "activity": {
+      "title": "فعالیت‌های حساب",
+      "subtitle": "تاریخچه فعالیت‌های اخیر حساب کاربری",
+      "fields": {
+        "type": "نوع فعالیت",
+        "timestamp": "زمان",
+        "ipAddress": "آدرس IP",
+        "userAgent": "مرورگر",
+        "details": "جزئیات"
+      },
+      "types": {
+        "login": "ورود",
+        "logout": "خروج",
+        "profile_updated": "به‌روزرسانی پروفایل",
+        "password_changed": "تغییر رمز عبور",
+        "session_terminated": "لغو نشست"
+      },
+      "devices": {
+        "unknown": "نامشخص",
+        "mobile": "موبایل",
+        "chrome": "کروم",
+        "firefox": "فایرفاکس",
+        "safari": "سافاری",
+        "edge": "اج",
+        "browser": "مرورگر"
+      },
+      "pagination": {
+        "showing": "نمایش {{from}} تا {{to}} از {{total}} فعالیت",
+        "noActivity": "فعالیتی ثبت نشده است",
+        "pageInfo": "صفحه {{page}} از {{totalPages}}",
+        "previous": "قبلی",
+        "next": "بعدی"
+      },
+      "buttons": {
+        "loadMore": "بارگذاری بیشتر",
+        "refresh": "به‌روزرسانی"
+      },
+      "loading": "در حال بارگذاری فعالیت‌ها..."
+    },
+    "errors": {
+      "loadProfile": "خطا در بارگذاری اطلاعات پروفایل",
+      "updateProfile": "خطا در به‌روزرسانی پروفایل",
+      "changePassword": "خطا در تغییر رمز عبور",
+      "loadSessions": "خطا در بارگذاری نشست‌ها",
+      "terminateSession": "خطا در لغو نشست",
+      "loadActivity": "خطا در بارگذاری فعالیت‌ها",
+      "invalidCurrentPassword": "رمز عبور فعلی اشتباه است",
+      "passwordMismatch": "رمز عبور جدید و تأیید آن یکسان نیستند"
+    }
+  },
+  "audit": {
+    "title": "پیگیری امنیتی",
+    "subtitle": "مشاهده و تحلیل فعالیت‌های امنیتی و عملیاتی",
+    "accessDenied": {
+      "title": "دسترسی محدود",
+      "message": "شما مجوز مشاهده پیگیری امنیتی را ندارید"
+    },
+    "loading": "در حال بارگذاری گزارش‌های امنیتی...",
+    "noData": "گزارش امنیتی‌ای یافت نشد",
+    "refresh": "به‌روزرسانی",
+    "retry": "تلاش مجدد",
+    "error": {
+      "title": "خطا در بارگذاری گزارش‌ها",
+      "general": "خطای غیرمنتظره‌ای رخ داده است"
+    },
+    "filters": {
+      "title": "فیلترهای جستجو",
+      "show": "نمایش فیلترها",
+      "hide": "مخفی کردن فیلترها",
+      "searchUser": "جستجو کاربر",
+      "searchUserPlaceholder": "نام، ایمیل یا شناسه کاربر",
+      "actionType": "نوع عملیات",
+      "allActions": "همه عملیات",
+      "status": "وضعیت",
+      "allStatuses": "همه وضعیت‌ها",
+      "dateFrom": "از تاریخ",
+      "dateTo": "تا تاریخ",
+      "ipAddress": "آدرس IP",
+      "search": "جستجو",
+      "clear": "پاک کردن"
+    },
+    "actions": {
+      "user_created": "ایجاد کاربر",
+      "user_updated": "به‌روزرسانی کاربر",
+      "user_deleted": "حذف کاربر",
+      "user_deactivated": "غیرفعال کردن کاربر",
+      "user_activated": "فعال کردن کاربر",
+      "user_locked": "قفل کردن کاربر",
+      "user_unlocked": "باز کردن قفل کاربر",
+      "role_assigned": "تخصیص نقش",
+      "role_removed": "حذف نقش",
+      "user_role_changed": "تغییر نقش کاربر",
+      "password_reset_initiated": "آغاز بازیابی رمز عبور",
+      "password_reset_requested": "درخواست بازیابی رمز عبور",
+      "password_reset_completed": "تکمیل بازیابی رمز عبور",
+      "password_changed": "تغییر رمز عبور",
+      "login_success": "ورود موفق",
+      "login_failed": "ورود ناموفق",
+      "logout": "خروج",
+      "session_terminated": "پایان نشست",
+      "profile_updated": "به‌روزرسانی پروفایل",
+      "email_verified": "تأیید ایمیل",
+      "audit_logs_viewed": "مشاهده گزارش‌های امنیتی",
+      "audit_export_initiated": "آغاز خروجی گزارش امنیتی",
+      "system_configuration_changed": "تغییر تنظیمات سیستم"
+    },
+    "status": {
+      "success": "موفق",
+      "failed": "ناموفق"
+    },
+    "logs": {
+      "title": "گزارش‌های امنیتی",
+      "totalRecords": "رکورد"
+    },
+    "table": {
+      "timestamp": "زمان",
+      "actor": "انجام‌دهنده",
+      "action": "عملیات",
+      "target": "هدف",
+      "status": "وضعیت",
+      "actions": "عملیات",
+      "viewDetails": "مشاهده جزئیات"
+    },
+    "detail": {
+      "title": "جزئیات گزارش امنیتی",
+      "timestamp": "زمان دقیق",
+      "action": "نوع عملیات",
+      "actor": "انجام‌دهنده",
+      "target": "کاربر هدف",
+      "ipAddress": "آدرس IP",
+      "status": "وضعیت",
+      "description": "توضیحات",
+      "userAgent": "اطلاعات مرورگر",
+      "metadata": "اطلاعات تکمیلی"
+    },
+    "export": {
+      "button": "خروجی گرفتن",
+      "exporting": "در حال تهیه خروجی...",
+      "initiated": "خروجی شروع شد. پس از تکمیل، لینک دانلود ارسال خواهد شد.",
+      "downloadStarted": "دانلود فایل شروع شد.",
+      "filename": "نام فایل",
+      "recordsExported": "تعداد رکوردهای صادر شده",
+      "errorCode": "کد خطا",
+      "estimatedRecords": "تعداد تقریبی رکوردها",
+      "expiresAt": "تاریخ انقضا",
+      "exportId": "شناسه صادرات",
+      "checkBackLater": "لطفا بعداً برای دانلود فایل مراجعه کنید.",
+      "error": "خطا در تهیه خروجی. لطفا مجددا تلاش کنید.",
+      "selectFormat": "انتخاب فرمت صادرات",
+      "formats": {
+        "csv": "CSV (اکسل سازگار)",
+        "excel": "Excel (.xlsx)",
+        "pdf": "PDF",
+        "json": "JSON"
+      },
+      "title": "خروجی گزارش‌های امنیتی",
+      "format": "فرمت فایل",
+      "includeMetadata": "شامل اطلاعات تکمیلی",
+      "dateRange": "بازه زمانی",
+      "download": "دانلود"
+    }
+  },
+  "pagination": {
+    "showing": "نمایش",
+    "of": "از",
+    "previous": "قبلی",
+    "next": "بعدی"
+  },
+  "permissions": {
+    "title": "مدیریت مجوزها",
+    "subtitle": "مدیریت مجوزهای نقش‌ها و نظارت بر دسترسی‌های سیستم",
+    "accessDenied": "دسترسی مجاز نیست",
+    "accessDeniedDescription": "شما مجوز دسترسی به این بخش را ندارید. تنها مالک سازمان قادر به مدیریت مجوزها است.",
+    "cannotModifyThisRole": "شما مجوز تغییر مجوزهای نقش {{role}} را ندارید",
+    "loading": "در حال بارگذاری مجوزها...",
+    "saving": "در حال ذخیره...",
+    "saveChanges": "ذخیره تغییرات",
+    "unsavedChanges": "تغییرات ذخیره نشده دارید",
+    "backToOverview": "بازگشت به نمای کلی",
+    "managePermissions": "مدیریت مجوزها",
+    "actionsLabel": "اقدام",
+    "actionsCount": "تعداد اقدامات",
+    "tabs": {
+      "roleManagement": "مدیریت نقش‌ها",
+      "auditLogs": "گزارشات نظارتی"
+    },
+    "roleManagement": {
+      "title": "مدیریت مجوزهای نقش",
+      "subtitle": "مدیریت مجوزها برای نقش: {{roleName}}",
+      "description": "انتخاب نقش برای مدیریت مجوزهای آن"
+    },
+    "roleDescriptions": {
+      "tenant_owner": "مالک سازمان - دسترسی کامل به تمام امکانات",
+      "admin": "مدیر - دسترسی مدیریتی با محدودیت‌هایی",
+      "manager": "مدیر عملیاتی - دسترسی عملیاتی محدود",
+      "employee": "کارمند - دسترسی عملیاتی استاندارد", 
+      "staff": "پرسنل - دسترسی محدود به وظایف خاص"
+    },
+    "resources": {
+      "users": "مدیریت کاربران",
+      "audit": "پیگیری امنیتی",
+      "inventory": "مدیریت موجودی",
+      "categories": "مدیریت دسته‌بندی‌ها",
+      "customers": "مدیریت مشتریان",
+      "rentals": "مدیریت اجاره",
+      "reports": "گزارشات",
+      "settings": "تنظیمات",
+      "permissions": "مدیریت مجوزها",
+      "dashboard": "داشبورد",
+      "profile": "مدیریت پروفایل",
+      "roles": "مدیریت نقش‌ها",
+      "sessions": "مدیریت نشست‌ها",
+      "system": "تنظیمات سیستم",
+      "tenants": "مدیریت سازمان‌ها"
+    },
+    "resourceDescriptions": {
+      "users": "مدیریت حساب‌های کاربری، ایجاد و ویرایش کاربران",
+      "audit": "مشاهده گزارشات امنیتی و لاگ‌های سیستم",
+      "inventory": "مدیریت موجودی کالاها و تجهیزات",
+      "categories": "مدیریت دسته‌بندی‌های موجودی و تجهیزات",
+      "customers": "مدیریت اطلاعات مشتریان و قراردادها",
+      "rentals": "مدیریت قراردادهای اجاره و نظارت",
+      "reports": "ایجاد و مشاهده گزارشات مختلف",
+      "settings": "مدیریت تنظیمات سیستم",
+      "permissions": "مدیریت مجوزهای نقش‌ها",
+      "dashboard": "مشاهده و مدیریت داشبورد اصلی سیستم",
+      "profile": "مدیریت اطلاعات پروفایل کاربران",
+      "roles": "مدیریت نقش‌ها و سطوح دسترسی",
+      "sessions": "مدیریت نشست‌های فعال کاربران",
+      "system": "تنظیمات و پیکربندی کلی سیستم",
+      "tenants": "مدیریت سازمان‌ها و مالکان"
+    },
+    "actions": {
+      "create": "ایجاد",
+      "read": "مشاهده",
+      "update": "ویرایش",
+      "delete": "حذف",
+      "manage": "مدیریت",
+      "export": "خروجی",
+      "import": "ورودی"
+    },
+    "actionDescriptions": {
+      "create": "ایجاد و اضافه کردن موارد جدید",
+      "read": "مشاهده و خواندن اطلاعات",
+      "update": "ویرایش و به‌روزرسانی اطلاعات موجود",
+      "delete": "حذف و پاک کردن اطلاعات",
+      "manage": "مدیریت کامل و دسترسی به تمام عملیات",
+      "export": "خروجی گرفتن و دانلود داده‌ها",
+      "import": "ورود و بارگذاری داده‌ها"
+    },
+    "results": {
+      "granted": "مجاز",
+      "denied": "مجاز نیست",
+      "unknown": "نامشخص"
+    },
+    "audit": {
+      "title": "گزارشات نظارتی مجوزها",
+      "subtitle": "نظارت بر بررسی‌های مجوز و دسترسی سیستم",
+      "description": "مشاهده تمام بررسی‌های مجوز انجام شده در سیستم",
+      "noResults": "هیچ گزارش نظارتی یافت نشد",
+      "noSearchResults": "هیچ نتیجه‌ای برای جستجوی شما یافت نشد",
+      "noData": "هنوز هیچ بررسی مجوزی انجام نشده است",
+      "reason": "دلیل",
+      "ipAddress": "آدرس IP",
+      "context": "زمینه",
+      "search": {
+        "placeholder": "جستجو در نام کاربر، ایمیل، منبع یا اقدام..."
+      },
+      "filters": {
+        "result": "نتیجه بررسی",
+        "action": "نوع اقدام",
+        "dateFrom": "از تاریخ",
+        "dateTo": "تا تاریخ"
+      }
+    }
+  },
+  "categories": {
+    "title": "مدیریت دسته‌بندی‌ها",
+    "subtitle": "مدیریت دسته‌بندی‌های موجودی",
+    "addCategory": "افزودن دسته‌بندی",
+    "list": {
+      "title": "لیست دسته‌بندی‌ها",
+      "empty": "دسته‌بندی‌ای وجود ندارد",
+      "emptyDescription": "هنوز هیچ دسته‌بندی‌ای ایجاد نشده است. اولین دسته‌بندی خود را ایجاد کنید.",
+      "loading": "در حال بارگذاری دسته‌بندی‌ها...",
+      "search": {
+        "placeholder": "جستجوی دسته‌بندی‌ها...",
+        "noResults": "هیچ دسته‌بندی‌ای یافت نشد",
+        "noResultsDescription": "هیچ دسته‌بندی‌ای با عبارت جستجوی شما یافت نشد. کلمات کلیدی دیگری امتحان کنید.",
+        "minLength": "حداقل ۲ کاراکتر وارد کنید"
+      },
+      "pagination": {
+        "showing": "نمایش {{start}} تا {{end}} از {{total}} دسته‌بندی",
+        "page": "صفحه {{current}} از {{total}}",
+        "previous": "قبلی",
+        "next": "بعدی",
+        "first": "اول",
+        "last": "آخر"
+      },
+      "columns": {
+        "name": "نام دسته‌بندی",
+        "description": "توضیحات",
+        "itemsCount": "تعداد اقلام",
+        "createdAt": "تاریخ ایجاد",
+        "updatedAt": "آخرین بروزرسانی",
+        "actions": "عملیات"
+      }
+    },
+    "form": {
+      "title": "افزودن دسته‌بندی جدید",
+      "editTitle": "ویرایش دسته‌بندی",
+      "name": {
+        "label": "نام دسته‌بندی",
+        "placeholder": "نام دسته‌بندی را وارد کنید",
+        "validation": {
+          "required": "نام دسته‌بندی الزامی است",
+          "minLength": "نام دسته‌بندی باید حداقل ۲ کاراکتر باشد",
+          "maxLength": "نام دسته‌بندی نباید بیشتر از ۲۵۵ کاراکتر باشد"
+        }
+      },
+      "description": {
+        "label": "توضیحات",
+        "placeholder": "توضیحات دسته‌بندی را وارد کنید (اختیاری)",
+        "validation": {
+          "maxLength": "توضیحات نباید بیشتر از ۵۰۰ کاراکتر باشد"
+        }
+      },
+      "buttons": {
+        "submit": "ایجاد دسته‌بندی",
+        "submitting": "در حال ایجاد...",
+        "update": "بروزرسانی",
+        "updating": "در حال بروزرسانی...",
+        "cancel": "انصراف"
+      }
+    },
+    "validation": {
+      "name": {
+        "required": "نام دسته‌بندی الزامی است",
+        "maxLength": "نام دسته‌بندی نباید بیشتر از ۲۵۵ کاراکتر باشد"
+      },
+      "description": {
+        "maxLength": "توضیحات نباید بیشتر از ۵۰۰ کاراکتر باشد"
+      }
+    },
+    "messages": {
+      "createSuccess": "دسته‌بندی با موفقیت ایجاد شد",
+      "updateSuccess": "دسته‌بندی با موفقیت بروزرسانی شد",
+      "updateError": "خطا در بروزرسانی دسته‌بندی",
+      "deleteSuccess": "دسته‌بندی با موفقیت حذف شد",
+      "deleteError": "خطا در حذف دسته‌بندی",
+      "checkItemsError": "خطا در بررسی اقلام مرتبط",
+      "duplicateName": "نام دسته‌بندی قبلاً وجود دارد",
+      "confirmDelete": "آیا از حذف این دسته‌بندی اطمینان دارید؟",
+      "deleteWarning": "این عمل قابل بازگشت نیست و تمام اطلاعات مرتبط با این دسته‌بندی حذف خواهد شد."
+    },
+    "actions": {
+      "edit": "ویرایش",
+      "delete": "حذف",
+      "view": "مشاهده"
+    },
+    "edit": {
+      "title": "ویرایش دسته‌بندی",
+      "warningAssociatedItems": "این دسته‌بندی دارای {{count}} قلم مرتبط است. تغییرات بر روی همه اقلام اعمال خواهد شد.",
+      "buttons": {
+        "update": "بروزرسانی",
+        "updating": "در حال بروزرسانی..."
+      }
+    },
+    "delete": {
+      "title": "حذف دسته‌بندی",
+      "description": "آیا از حذف دسته‌بندی «{{categoryName}}» اطمینان دارید؟",
+      "warning": "این عمل قابل بازگشت نیست. دسته‌بندی به طور کامل حذف خواهد شد.",
+      "hasItemsError": "امکان حذف دسته‌بندی با {{count}} قلم مرتبط وجود ندارد. ابتدا اقلام را به دسته‌بندی‌های دیگر منتقل کنید.",
+      "categoryToDelete": "دسته‌بندی مورد حذف:",
+      "confirm": "حذف دسته‌بندی",
+      "deleting": "در حال حذف...",
+      "understood": "متوجه شدم"
+    }
+  },
+  "inventory": {
+    "title": "مدیریت موجودی",
+    "subtitle": "مدیریت اقلام موجودی و تجهیزات",
+    "itemType": {
+      "serialized": "سریالی",
+      "non_serialized": "غیرسریالی",
+      "serializedDesc": "اقلام با شماره سریال منحصر به فرد",
+      "nonSerializedDesc": "اقلام با مقدار و واحد"
+    },
+    "status": {
+      "available": "موجود",
+      "rented": "اجاره شده",
+      "maintenance": "در تعمیر",
+      "damaged": "آسیب دیده",
+      "lost": "گم شده"
+    },
+    "items": {
+      "title": "لیست اقلام موجودی",
+      "itemsCount": "قلم",
+      "selected": "انتخاب شده",
+      "selectAll": "انتخاب همه",
+      "selectItem": "انتخاب {{name}}",
+      "noItems": "هیچ قلمی وجود ندارد",
+      "noResultsFound": "نتیجه‌ای یافت نشد",
+      "createFirstItem": "اولین قلم موجودی خود را ایجاد کنید",
+      "search": {
+        "placeholder": "جستجوی اقلام..."
+      },
+      "filters": {
+        "category": "دسته‌بندی",
+        "allCategories": "همه دسته‌بندی‌ها",
+        "itemType": "نوع قلم",
+        "allTypes": "همه انواع",
+        "status": "وضعیت",
+        "allStatuses": "همه وضعیت‌ها",
+        "showArchived": "نمایش اقلام بایگانی شده",
+        "clear": "پاک کردن فیلترها"
+      },
+      "table": {
+        "name": "نام قلم",
+        "category": "دسته‌بندی",
+        "type": "نوع",
+        "serialOrQuantity": "سریال / مقدار",
+        "status": "وضعیت",
+        "created": "تاریخ ایجاد",
+        "actions": "عملیات"
+      },
+      "actions": {
+        "view": "مشاهده جزئیات",
+        "edit": "ویرایش",
+        "exportSelected": "خروجی گیری موارد انتخابی"
+      },
+      "errors": {
+        "loadFailed": "خطا در بارگذاری اقلام موجودی"
+      }
+    },
+    "form": {
+      "title": "افزودن قلم جدید",
+      "subtitle": "قلم جدیدی به موجودی اضافه کنید",
+      "fields": {
+        "name": {
+          "label": "نام قلم",
+          "placeholder": "نام قلم را وارد کنید"
+        },
+        "description": {
+          "label": "توضیحات",
+          "placeholder": "توضیحات اختیاری درباره قلم"
+        },
+        "category": {
+          "label": "دسته‌بندی",
+          "placeholder": "دسته‌بندی را انتخاب کنید"
+        },
+        "itemType": {
+          "label": "نوع قلم"
+        },
+        "serialNumber": {
+          "label": "شماره سریال",
+          "placeholder": "شماره سریال دستی وارد کنید"
+        },
+        "autoGenerateSerial": {
+          "label": "تولید خودکار شماره سریال"
+        },
+        "generatedSerial": {
+          "label": "شماره سریال تولید شده"
+        },
+        "quantity": {
+          "label": "مقدار"
+        },
+        "quantityUnit": {
+          "label": "واحد",
+          "placeholder": "عدد، جعبه، بسته و غیره"
+        }
+      },
+      "serialized": {
+        "title": "تنظیمات قلم سریالی"
+      },
+      "nonSerialized": {
+        "title": "تنظیمات قلم غیرسریالی"
+      },
+      "validation": {
+        "nameRequired": "نام قلم الزامی است",
+        "nameMaxLength": "نام قلم نباید بیشتر از ۲۵۵ کاراکتر باشد",
+        "descriptionMaxLength": "توضیحات نباید بیشتر از ۲۰۰۰ کاراکتر باشد",
+        "categoryRequired": "انتخاب دسته‌بندی الزامی است",
+        "itemTypeRequired": "انتخاب نوع قلم الزامی است",
+        "serialNumberMaxLength": "شماره سریال نباید بیشتر از ۱۰۰ کاراکتر باشد",
+        "serialNumberOrAutoGenerate": "شماره سریال را وارد کنید یا تولید خودکار را فعال کنید",
+        "quantityRequired": "مقدار الزامی است",
+        "quantityMin": "مقدار نباید منفی باشد",
+        "quantityUnitMaxLength": "واحد نباید بیشتر از ۵۰ کاراکتر باشد"
+      },
+      "actions": {
+        "create": "ایجاد قلم",
+        "creating": "در حال ایجاد...",
+        "generateSerial": "تولید شماره سریال",
+        "generating": "در حال تولید..."
+      },
+      "messages": {
+        "createSuccess": "قلم با موفقیت ایجاد شد",
+        "createError": "خطا در ایجاد قلم"
+      }
+    },
+    "details": {
+      "title": "جزئیات قلم موجودی",
+      "backToList": "بازگشت به لیست",
+      "sections": {
+        "basicInfo": "اطلاعات پایه",
+        "statusTracking": "وضعیت و پیگیری"
+      },
+      "fields": {
+        "availabilityStatus": "وضعیت در دسترس بودن",
+        "itemStatus": "وضعیت قلم",
+        "quantity": "مقدار",
+        "createdAt": "تاریخ ایجاد",
+        "updatedAt": "آخرین بروزرسانی"
+      },
+      "status": {
+        "active": "فعال",
+        "inactive": "غیرفعال",
+        "archived": "بایگانی شده"
+      },
+      "actions": {
+        "edit": "ویرایش",
+        "export": "خروجی",
+        "changeStatus": "تغییر وضعیت"
+      },
+      "errors": {
+        "loadFailed": "خطا در بارگذاری جزئیات قلم"
+      }
+    },
+    "edit": {
+      "title": "ویرایش قلم موجودی",
+      "subtitle": "ویرایش اطلاعات پایه قلم",
+      "backToDetails": "بازگشت به جزئیات",
+      "currentInfo": "اطلاعات فعلی قلم",
+      "readOnlyInfo": "برخی از فیلدها به دلیل وجود تاریخچه اجاره قابل تغییر نیستند",
+      "itemTypeLockedDueToHistory": "نوع قلم به دلیل وجود تاریخچه اجاره قابل تغییر نیست",
+      "tabs": {
+        "basicInfo": "اطلاعات پایه",
+        "serialized": "اطلاعات سریالی",
+        "quantity": "مقدار موجودی"
+      },
+      "fields": {
+        "name": {
+          "label": "نام قلم",
+          "placeholder": "نام قلم را وارد کنید"
+        },
+        "description": {
+          "label": "توضیحات",
+          "placeholder": "توضیحات اختیاری درباره قلم"
+        },
+        "category": {
+          "label": "دسته‌بندی",
+          "placeholder": "دسته‌بندی را انتخاب کنید"
+        },
+        "status": {
+          "label": "وضعیت قلم",
+          "placeholder": "وضعیت را انتخاب کنید"
+        },
+        "availabilityStatus": {
+          "label": "وضعیت در دسترس بودن"
+        }
+      },
+      "validation": {
+        "nameRequired": "نام قلم الزامی است",
+        "nameMaxLength": "نام قلم نباید بیشتر از ۲۵۵ کاراکتر باشد",
+        "descriptionMaxLength": "توضیحات نباید بیشتر از ۲۰۰۰ کاراکتر باشد",
+        "categoryRequired": "انتخاب دسته‌بندی الزامی است",
+        "statusRequired": "انتخاب وضعیت الزامی است"
+      },
+      "actions": {
+        "update": "بروزرسانی",
+        "updating": "در حال بروزرسانی..."
+      },
+      "errors": {
+        "updateFailed": "خطا در بروزرسانی قلم",
+        "validationFailed": "خطا در اعتبارسنجی اطلاعات",
+        "editConflict": "قلم توسط کاربر دیگری تغییر یافته است. لطفاً صفحه را تازه کنید",
+        "itemNotFound": "قلم مورد نظر یافت نشد",
+        "insufficientPermissions": "دسترسی کافی برای ویرایش این قلم ندارید"
+      },
+      "accessDenied": "دسترسی به ویرایش مجاز نیست",
+      "accessDeniedDescription": "شما مجوز ویرایش اقلام موجودی را ندارید. لطفاً با مدیر سیستم تماس بگیرید.",
+      "messages": {
+        "updateSuccess": "قلم با موفقیت بروزرسانی شد"
+      }
+    },
+    "statusChange": {
+      "title": "تغییر وضعیت قلم",
+      "description": "تغییر وضعیت دسترسی برای {{itemName}}",
+      "currentStatus": "وضعیت فعلی",
+      "newStatus": "وضعیت جدید",
+      "changeReason": "دلیل تغییر وضعیت",
+      "changeReasonPlaceholder": "دلیل تغییر وضعیت را وارد کنید (اختیاری)",
+      "expectedResolutionDate": "تاریخ پیش‌بینی شده برای رفع مشکل",
+      "comingSoon": "قابلیت تغییر وضعیت به زودی اضافه خواهد شد",
+      "actions": {
+        "changeStatus": "تغییر وضعیت",
+        "changing": "در حال تغییر وضعیت..."
+      },
+      "errors": {
+        "changeFailed": "خطا در تغییر وضعیت قلم",
+        "validationFailed": "خطا در اعتبارسنجی اطلاعات",
+        "itemNotFound": "قلم مورد نظر یافت نشد",
+        "insufficientPermissions": "دسترسی کافی برای تغییر وضعیت این قلم ندارید",
+        "sameStatus": "وضعیت جدید نباید با وضعیت فعلی یکسان باشد"
+      },
+      "messages": {
+        "changeSuccess": "وضعیت قلم با موفقیت تغییر یافت"
+      }
+    },
+    "export": {
+      "title": "خروجی گیری از اقلام موجودی",
+      "description": "خروجی {{count}} قلم انتخاب شده",
+      "selectedItems": "اقلام انتخاب شده",
+      "format": {
+        "title": "فرمت خروجی",
+        "pdf": {
+          "name": "PDF",
+          "description": "گزارش مفصل قابل چاپ"
+        },
+        "excel": {
+          "name": "Excel",
+          "description": "صفحه گسترده برای تجزیه و تحلیل"
+        },
+        "csv": {
+          "name": "CSV",
+          "description": "داده های کاما محدود"
+        },
+        "json": {
+          "name": "JSON",
+          "description": "فرمت تبادل داده"
+        }
+      },
+      "options": {
+        "title": "گزینه های خروجی",
+        "includeDescription": "شامل توضیحات",
+        "includeStatusInfo": "شامل اطلاعات وضعیت",
+        "includeAuditHistory": "شامل تاریخچه حسابرسی",
+        "dateRange": "محدوده تاریخی",
+        "startDate": "تاریخ شروع",
+        "endDate": "تاریخ پایان"
+      },
+      "actions": {
+        "startExport": "شروع خروجی گیری",
+        "download": "دانلود"
+      },
+      "status": {
+        "processing": "در حال پردازش...",
+        "processingDescription": "خروجی شما در حال تولید است. لطفا منتظر بمانید.",
+        "completed": "خروجی آماده است",
+        "completedDescription": "خروجی با موفقیت تولید شد و آماده دانلود است.",
+        "failed": "خروجی گیری ناموفق"
+      },
+      "errors": {
+        "failed": "خطا در تولید خروجی"
+      }
+    },
+    "serialized": {
+      "title": "ویرایش اطلاعات سریالی",
+      "subtitle": "ویرایش شماره سریال و تاریخ تعمیرات",
+      "currentInfo": "اطلاعات فعلی قلم",
+      "fields": {
+        "serialNumberPlaceholder": "شماره سریال جدید را وارد کنید",
+        "currentSerial": "شماره سریال فعلی"
+      },
+      "confirmation": {
+        "title": "تأیید تغییر شماره سریال",
+        "description": "تغییر شماره سریال ممکن است بر تاریخچه اجاره تأثیر بگذارد. لطفاً تغییر را تأیید کنید.",
+        "currentSerial": "شماره سریال فعلی",
+        "newSerial": "شماره سریال جدید",
+        "empty": "خالی",
+        "checkboxLabel": "تأیید می‌کنم که می‌خواهم شماره سریال را تغییر دهم"
+      },
+      "validation": {
+        "serialNumberMaxLength": "شماره سریال نباید بیشتر از ۱۰۰ کاراکتر باشد"
+      },
+      "actions": {
+        "update": "بروزرسانی اطلاعات سریالی",
+        "updating": "در حال بروزرسانی..."
+      },
+      "errors": {
+        "updateFailed": "خطا در بروزرسانی اطلاعات سریالی",
+        "validationFailed": "خطا در اعتبارسنجی اطلاعات",
+        "serialNumberExists": "این شماره سریال قبلاً استفاده شده است",
+        "elevatedPermissionsRequired": "برای تغییر شماره سریال اقلام با سابقه اجاره، دسترسی بالاتر نیاز است",
+        "serialNumberChangeRestricted": "تغییر شماره سریال برای این قلم محدود شده است",
+        "itemNotFound": "قلم مورد نظر یافت نشد",
+        "insufficientPermissions": "دسترسی کافی برای ویرایش اطلاعات سریالی ندارید",
+        "confirmationRequired": "تأیید تغییر شماره سریال الزامی است"
+      }
+    },
+    "nonSerialized": {
+      "title": "ویرایش مقدار موجودی",
+      "subtitle": "تنظیم مقدار کل و واحد قلم غیرسریالی",
+      "currentInfo": "اطلاعات فعلی قلم",
+      "fields": {
+        "changeReason": "دلیل تغییر مقدار",
+        "changeReasonRequired": "الزامی برای کاهش قابل توجه",
+        "changeReasonPlaceholder": "دلیل تغییر مقدار را شرح دهید...",
+        "currentQuantity": "مقدار فعلی"
+      },
+      "changeSummary": {
+        "title": "خلاصه تغییرات",
+        "currentQuantity": "مقدار فعلی",
+        "newQuantity": "مقدار جدید",
+        "difference": "تفاوت"
+      },
+      "warnings": {
+        "significantReduction": "هشدار: کاهش قابل توجه مقدار موجودی (بیش از ۵۰٪). لطفاً دلیل تغییر را مشخص کنید."
+      },
+      "validation": {
+        "quantityMin": "مقدار نباید منفی باشد",
+        "quantityInteger": "مقدار باید عدد صحیح باشد",
+        "quantityUnitMaxLength": "واحد نباید بیشتر از ۵۰ کاراکتر باشد",
+        "changeReasonMaxLength": "دلیل تغییر نباید بیشتر از ۵۰۰ کاراکتر باشد"
+      },
+      "actions": {
+        "update": "بروزرسانی مقدار",
+        "updating": "در حال بروزرسانی..."
+      },
+      "errors": {
+        "updateFailed": "خطا در بروزرسانی مقدار موجودی",
+        "validationFailed": "خطا در اعتبارسنجی اطلاعات",
+        "quantityBelowAllocated": "مقدار کل نمی‌تواند کمتر از مقدار تخصیص داده شده باشد",
+        "itemNotFound": "قلم مورد نظر یافت نشد",
+        "insufficientPermissions": "دسترسی کافی برای ویرایش مقدار موجودی ندارید"
+      }
+    },
+    "accessDenied": "دسترسی مجاز نیست",
+    "accessDeniedDescription": "شما مجوز دسترسی به مدیریت موجودی را ندارید. لطفاً با مدیر سیستم تماس بگیرید."
+  },
+  "datePicker": {
+    "selectDate": "انتخاب تاریخ",
+    "today": "امروز",
+    "placeholder": "تاریخ را انتخاب کنید",
+    "clickToSelect": "برای انتخاب تاریخ کلیک کنید",
+    "months": {
+      "persian": [
+        "فروردین", "اردیبهشت", "خرداد", "تیر", "مرداد", "شهریور",
+        "مهر", "آبان", "آذر", "دی", "بهمن", "اسفند"
+      ],
+      "gregorian": [
+        "ژانویه", "فوریه", "مارس", "آوریل", "مه", "ژوئن",
+        "ژوئیه", "اوت", "سپتامبر", "اکتبر", "نوامبر", "دسامبر"
+      ]
+    },
+    "weekdays": {
+      "persian": ["ش", "ی", "د", "س", "چ", "پ", "ج"],
+      "gregorian": ["ی", "د", "س", "چ", "پ", "ج", "ش"]
+    }
+  }
+}
