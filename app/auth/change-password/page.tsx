@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, Suspense } from 'react';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { useTranslation } from 'react-i18next';
 import { useSearchParams } from 'next/navigation';
@@ -21,7 +21,7 @@ const queryClient = new QueryClient({
   },
 });
 
-export default function MandatoryPasswordChangePage() {
+function MandatoryPasswordChangeContent() {
   const { t, i18n } = useTranslation();
   const { initializeLanguage, applyLanguageStyles } = useLanguagePersistence();
   const searchParams = useSearchParams();
@@ -59,32 +59,44 @@ export default function MandatoryPasswordChangePage() {
   }
 
   return (
-    <QueryClientProvider client={queryClient}>
-      <ErrorBoundary>
-        <div className="min-h-screen animated-gradient relative overflow-hidden flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
-          {/* Decorative background elements */}
-          <div className="decorative-blob blob-1"></div>
-          <div className="decorative-blob blob-2"></div>
-          
-          <div className="max-w-md w-full space-y-8 relative z-10">
-            {/* Language Selector */}
-            <div className="flex justify-center">
-              <div className="glass-overlay rounded-xl p-2">
-                <LanguageSelector />
-              </div>
-            </div>
-
-            {/* Mandatory Password Change Form */}
-            <MandatoryPasswordChangeForm token={token || undefined} />
-
-            {/* Footer */}
-            <div className="text-center">
-              <p className="text-sm text-white/80 backdrop-blur-sm bg-white/10 rounded-full px-4 py-2 inline-block">
-                © 2025 Samanin. All rights reserved.
-              </p>
-            </div>
+    <div className="min-h-screen animated-gradient relative overflow-hidden flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
+      {/* Decorative background elements */}
+      <div className="decorative-blob blob-1"></div>
+      <div className="decorative-blob blob-2"></div>
+      
+      <div className="max-w-md w-full space-y-8 relative z-10">
+        {/* Language Selector */}
+        <div className="flex justify-center">
+          <div className="glass-overlay rounded-xl p-2">
+            <LanguageSelector />
           </div>
         </div>
+
+        {/* Mandatory Password Change Form */}
+        <MandatoryPasswordChangeForm token={token || undefined} />
+
+        {/* Footer */}
+        <div className="text-center">
+          <p className="text-sm text-white/80 backdrop-blur-sm bg-white/10 rounded-full px-4 py-2 inline-block">
+            © 2025 Samanin. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default function MandatoryPasswordChangePage() {
+  return (
+    <QueryClientProvider client={queryClient}>
+      <ErrorBoundary>
+        <Suspense fallback={
+          <div className="min-h-screen flex items-center justify-center">
+            <div className="text-lg">Loading...</div>
+          </div>
+        }>
+          <MandatoryPasswordChangeContent />
+        </Suspense>
       </ErrorBoundary>
     </QueryClientProvider>
   );
