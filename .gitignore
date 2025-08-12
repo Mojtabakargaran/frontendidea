@@ -4,3 +4,5 @@ build
 .cache
 .next
 out
+.env.local
+
