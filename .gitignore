@@ -4,3 +4,6 @@ build
 .cache
 .next
 out
+
+# Update scripts
+update-frontend.sh
