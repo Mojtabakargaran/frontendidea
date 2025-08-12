@@ -5,6 +5,8 @@ build
 .next
 out
 .env.local
+*.log
+logs
 
 # Update scripts
 update-frontend.sh

@@ -12,6 +12,7 @@ interface UserInfo {
   roleName: UserRole;
   permissions: string[];
   sessionExpiresAt: string;
+  rememberMeEnabled?: boolean; // Add this field
 }
 
 interface UserContextType {
@@ -42,8 +43,15 @@ export function UserProvider({ children }: UserProviderProps) {
 
   const checkSession = async () => {
     try {
-      // Try to get user info from session storage or API
-      const storedUser = sessionStorage.getItem('user');
+      // Try to get user info from localStorage (remember me) or sessionStorage (regular session)
+      let storedUser = localStorage.getItem('user');
+      let fromLocalStorage = true;
+      
+      if (!storedUser) {
+        storedUser = sessionStorage.getItem('user');
+        fromLocalStorage = false;
+      }
+      
       if (storedUser) {
         const userData = JSON.parse(storedUser);
         
@@ -52,12 +60,16 @@ export function UserProvider({ children }: UserProviderProps) {
         if (expiresAt > new Date()) {
           setUser(userData);
         } else {
-          // Session expired, clear data
+          // Session expired, clear data from both storages
+          localStorage.removeItem('user');
           sessionStorage.removeItem('user');
         }
       }
     } catch (error) {
       console.error('Failed to check session:', error);
+      // Clear potentially corrupted data
+      localStorage.removeItem('user');
+      sessionStorage.removeItem('user');
     } finally {
       setIsLoading(false);
     }
@@ -67,16 +79,27 @@ export function UserProvider({ children }: UserProviderProps) {
     setUser(userData);
     
     if (userData) {
-      // Store user data in session storage
-      sessionStorage.setItem('user', JSON.stringify(userData));
+      // Store user data in localStorage if remember me is enabled, otherwise sessionStorage
+      if (userData.rememberMeEnabled) {
+        localStorage.setItem('user', JSON.stringify(userData));
+        // Clear any data in sessionStorage to avoid confusion
+        sessionStorage.removeItem('user');
+      } else {
+        sessionStorage.setItem('user', JSON.stringify(userData));
+        // Clear any data in localStorage to avoid confusion
+        localStorage.removeItem('user');
+      }
     } else {
-      // Clear user data
+      // Clear user data from both storages
+      localStorage.removeItem('user');
       sessionStorage.removeItem('user');
     }
   };
 
   const logout = () => {
     setUser(null);
+    // Clear user data from both storages
+    localStorage.removeItem('user');
     sessionStorage.removeItem('user');
     router.push('/login');
   };
