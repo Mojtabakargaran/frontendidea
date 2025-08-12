@@ -1,0 +1,45 @@
+{
+  "landing": {
+    "title": "Samanin - Rental Management Platform Sample",
+    "subtitle": "Note: The main application supports Persian and Arabic. This landing page is available in three languages for demonstration.",
+    "features": {
+      "title": "Project Overview",
+      "description": "A comprehensive rental management platform built with modern technologies, featuring user authentication, dashboard management, and multi-language support."
+    },
+    "sampleUsers": {
+      "title": "Try Sample Users",
+      "description": "Experience the platform with pre-configured demo accounts:",
+      "persian": "Persian User",
+      "arabic": "Arabic User",
+      "password": "Password for both users",
+      "note": "Use these credentials to explore the dashboard features"
+    },
+    "github": {
+      "title": "Source Code",
+      "backend": "Backend Repository",
+      "frontend": "Frontend Repository",
+      "features": "View Features"
+    },
+    "actions": {
+      "login": "Sign In",
+      "register": "Create Account",
+      "viewFeatures": "View Features",
+      "tryDemo": "Try Demo"
+    },
+    "languages": {
+      "note": "Bilingual Persian & Arabic (also Backend responses supported)"
+    }
+  },
+  "ui": {
+    "languageSelector": {
+      "english": "English",
+      "persian": "Persian", 
+      "arabic": "Arabic"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "email": "Email",
+    "password": "Password"
+  }
+}

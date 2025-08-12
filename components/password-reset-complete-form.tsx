@@ -225,7 +225,7 @@ export default function PasswordResetCompleteForm({
         {/* Submit Button */}
         <Button
           type="submit"
-          className="w-full bg-gradient-to-r from-blue-500 to-indigo-500 hover:from-blue-600 hover:to-indigo-600 text-white py-3 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-[1.02]"
+          className="w-full bg-gradient-to-r from-gray-600 to-gray-700 hover:from-gray-700 hover:to-gray-800 text-white py-3 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-[1.02]"
           disabled={isSubmitting}
         >
           {isSubmitting ? (
@@ -242,7 +242,7 @@ export default function PasswordResetCompleteForm({
         <div className="text-center">
           <Link
             href="/login"
-            className="text-sm text-blue-600 hover:text-blue-500 font-medium transition-colors duration-200 hover:underline"
+            className="text-sm text-gray-600 hover:text-gray-700 font-medium transition-colors duration-200 hover:underline"
           >
             {t('auth.passwordReset.complete.buttons.backToLogin')}
           </Link>

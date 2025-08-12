@@ -221,7 +221,7 @@ export default function LoginForm({ onSuccess, onError }: LoginFormProps) {
         {/* Submit Button */}
         <Button
           type="submit"
-          className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white py-3 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-[1.02]"
+          className="w-full bg-gradient-to-r from-gray-600 to-gray-700 hover:from-gray-700 hover:to-gray-800 text-white py-3 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-[1.02]"
           disabled={isSubmitting}
         >
           {isSubmitting ? (
@@ -238,7 +238,7 @@ export default function LoginForm({ onSuccess, onError }: LoginFormProps) {
         <div className="text-center">
           <Link
             href="/auth/forgot-password"
-            className="text-sm text-blue-600 hover:text-blue-500 font-medium transition-colors duration-200 hover:underline"
+            className="text-sm text-gray-600 hover:text-gray-700 font-medium transition-colors duration-200 hover:underline"
           >
             {t('auth.login.buttons.forgotPassword')}
           </Link>
@@ -247,7 +247,7 @@ export default function LoginForm({ onSuccess, onError }: LoginFormProps) {
         {/* Back to Registration Link */}
         <div className="text-center">
           <Link
-            href="/"
+            href="/auth/register"
             className="text-sm text-gray-600 hover:text-gray-500 font-medium transition-colors duration-200 hover:underline"
           >
             {t('auth.login.buttons.backToRegister')}

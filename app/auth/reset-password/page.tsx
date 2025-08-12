@@ -127,7 +127,7 @@ function ResetPasswordContent() {
         {/* Password Reset Complete Form */}
         <div className="glass-card rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300">
           <div className="text-center mb-8">
-            <div className="mx-auto flex items-center justify-center h-16 w-16 rounded-full bg-gradient-to-r from-blue-500 to-indigo-500 mb-4 floating">
+            <div className="mx-auto flex items-center justify-center h-16 w-16 rounded-full bg-gradient-to-r from-gray-500 to-gray-600 mb-4 floating">
               <svg
                 className="h-8 w-8 text-white"
                 fill="none"
@@ -160,7 +160,7 @@ function ResetPasswordContent() {
 
         {/* Footer */}
         <div className="text-center">
-          <p className="text-sm text-white/80 backdrop-blur-sm bg-white/10 rounded-full px-4 py-2 inline-block">
+          <p className="text-sm text-gray-600 backdrop-blur-sm bg-white/20 rounded-full px-4 py-2 inline-block">
             © 2025 Samanin. All rights reserved.
           </p>
         </div>

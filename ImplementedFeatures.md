@@ -571,7 +571,7 @@ The frontend integrates with the backend API according to the specifications:
   - Focus management and error announcements
   - RTL language support
 
-### ?: Change Inventory Item Status (Prepared) ⚠️
+### ?: Change Inventory Item Status ✅
 - [x] Status change dialog component with comprehensive UI
 - [x] Available status options presentation (Available, Maintenance, Damaged, Lost)
 - [x] Additional information fields for maintenance/damaged status:
@@ -587,7 +587,6 @@ The frontend integrates with the backend API according to the specifications:
   - Component structure prepared for API endpoint integration
   - Error handling and success feedback prepared
   - Form validation and submission logic implemented
-- ⚠️ **Note**: Status change functionality prepared but not fully active pending backend API endpoint availability
 
 ### ?: Update Serialized Item Information ✅
 - [x] Dedicated serialized item update form component

@@ -4,6 +4,7 @@ build
 .cache
 .next
 out
+.env.local
 
 # Update scripts
 update-frontend.sh

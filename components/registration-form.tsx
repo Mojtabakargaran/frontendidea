@@ -386,7 +386,7 @@ export default function RegistrationForm({ onSuccess, onError }: RegistrationFor
         {/* Submit Button */}
         <Button
           type="submit"
-          className="w-full bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white py-3 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-[1.02]"
+          className="w-full bg-gradient-to-r from-gray-600 to-gray-700 hover:from-gray-700 hover:to-gray-800 text-white py-3 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-[1.02]"
           disabled={isSubmitting || registrationMutation.isPending}
         >
           {isSubmitting || registrationMutation.isPending ? (
@@ -403,7 +403,7 @@ export default function RegistrationForm({ onSuccess, onError }: RegistrationFor
         <div className="text-center">
           <Link
             href="/login"
-            className="text-sm text-blue-600 hover:text-blue-500 font-medium transition-colors duration-200 hover:underline"
+            className="text-sm text-gray-600 hover:text-gray-700 font-medium transition-colors duration-200 hover:underline"
           >
             {t('auth.registration.buttons.backToLogin')}
           </Link>
