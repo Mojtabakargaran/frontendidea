@@ -145,7 +145,7 @@ export default function LandingPage() {
                 <div className="bg-gray-50 border border-gray-200 rounded-xl p-4 mb-6">
                   <p className="text-sm dashboard-text-secondary">
                     <span className="font-medium">{t('landing.sampleUsers.password')}:</span>
-                    <code className="bg-white px-2 py-1 rounded text-gray-800 mx-2">SamplePass123!</code>
+                    <code className="bg-white px-2 py-1 rounded text-gray-800 mx-2" dir="ltr">SamplePass123!</code>
                   </p>
                   <p className="text-xs dashboard-text-muted mt-2">
                     {t('landing.sampleUsers.note')}
@@ -175,15 +175,15 @@ export default function LandingPage() {
                   href="https://github.com/Mojtabakargaran/backendidea"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-white/60 backdrop-blur-sm rounded-xl p-6 border border-white/30 hover:bg-white/80 transition-all duration-200 group"
+                  className="bg-white/80 backdrop-blur-sm rounded-xl p-6 border border-white/50 shadow-lg hover:bg-white/90 hover:shadow-xl transition-all duration-200 group"
                 >
                   <div className="flex items-center justify-between mb-4">
-                    <h3 className="text-lg font-semibold dashboard-text-primary">
+                    <h3 className="text-lg font-semibold text-gray-900">
                       {t('landing.github.backend')}
                     </h3>
-                    <ExternalLink className="h-5 w-5 dashboard-text-muted group-hover:text-gray-700 transition-colors" />
+                    <ExternalLink className="h-5 w-5 text-gray-600 group-hover:text-gray-800 transition-colors" />
                   </div>
-                  <p className="text-sm dashboard-text-secondary">Node.js • NestJS • TypeScript • PostgreSQL</p>
+                  <p className="text-sm text-gray-700 font-medium">Node.js • NestJS • TypeScript • PostgreSQL</p>
                 </a>
 
                 {/* Frontend Repository */}
@@ -191,15 +191,15 @@ export default function LandingPage() {
                   href="https://github.com/Mojtabakargaran/frontendidea"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-white/60 backdrop-blur-sm rounded-xl p-6 border border-white/30 hover:bg-white/80 transition-all duration-200 group"
+                  className="bg-white/80 backdrop-blur-sm rounded-xl p-6 border border-white/50 shadow-lg hover:bg-white/90 hover:shadow-xl transition-all duration-200 group"
                 >
                   <div className="flex items-center justify-between mb-4">
-                    <h3 className="text-lg font-semibold dashboard-text-primary">
+                    <h3 className="text-lg font-semibold text-gray-900">
                       {t('landing.github.frontend')}
                     </h3>
-                    <ExternalLink className="h-5 w-5 dashboard-text-muted group-hover:text-gray-700 transition-colors" />
+                    <ExternalLink className="h-5 w-5 text-gray-600 group-hover:text-gray-800 transition-colors" />
                   </div>
-                  <p className="text-sm dashboard-text-secondary">Next.js • React • TypeScript • TailwindCSS</p>
+                  <p className="text-sm text-gray-700 font-medium">Next.js • React • TypeScript • TailwindCSS</p>
                 </a>
               </div>
 
@@ -213,33 +213,33 @@ export default function LandingPage() {
                     href="https://github.com/Mojtabakargaran/backendidea/blob/main/FullFeaturesEN.md"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="bg-white/40 backdrop-blur-sm rounded-lg p-4 border border-white/30 hover:bg-white/60 transition-all duration-200 group flex items-center space-x-2 rtl:space-x-reverse"
+                    className="bg-white/70 backdrop-blur-sm rounded-lg p-4 border border-white/50 shadow-md hover:bg-white/85 hover:shadow-lg transition-all duration-200 group flex items-center space-x-2 rtl:space-x-reverse"
                   >
-                    <BookOpen className="h-4 w-4 dashboard-text-muted group-hover:text-gray-700 transition-colors" />
-                    <span className="text-sm font-medium dashboard-text-secondary">English Features</span>
-                    <ExternalLink className="h-3 w-3 dashboard-text-muted group-hover:text-gray-700 transition-colors" />
+                    <BookOpen className="h-4 w-4 text-gray-600 group-hover:text-gray-800 transition-colors" />
+                    <span className="text-sm font-medium text-gray-800">English Features</span>
+                    <ExternalLink className="h-3 w-3 text-gray-500 group-hover:text-gray-700 transition-colors" />
                   </a>
                   
                   <a
                     href="https://github.com/Mojtabakargaran/backendidea/blob/main/FullFeaturesFA.md"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="bg-white/40 backdrop-blur-sm rounded-lg p-4 border border-white/30 hover:bg-white/60 transition-all duration-200 group flex items-center space-x-2 rtl:space-x-reverse"
+                    className="bg-white/70 backdrop-blur-sm rounded-lg p-4 border border-white/50 shadow-md hover:bg-white/85 hover:shadow-lg transition-all duration-200 group flex items-center space-x-2 rtl:space-x-reverse"
                   >
-                    <BookOpen className="h-4 w-4 dashboard-text-muted group-hover:text-gray-700 transition-colors" />
-                    <span className="text-sm font-medium dashboard-text-secondary">Persian Features</span>
-                    <ExternalLink className="h-3 w-3 dashboard-text-muted group-hover:text-gray-700 transition-colors" />
+                    <BookOpen className="h-4 w-4 text-gray-600 group-hover:text-gray-800 transition-colors" />
+                    <span className="text-sm font-medium text-gray-800">Persian Features</span>
+                    <ExternalLink className="h-3 w-3 text-gray-500 group-hover:text-gray-700 transition-colors" />
                   </a>
                   
                   <a
                     href="https://github.com/Mojtabakargaran/backendidea/blob/main/FullFeaturesAR.md"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="bg-white/40 backdrop-blur-sm rounded-lg p-4 border border-white/30 hover:bg-white/60 transition-all duration-200 group flex items-center space-x-2 rtl:space-x-reverse"
+                    className="bg-white/70 backdrop-blur-sm rounded-lg p-4 border border-white/50 shadow-md hover:bg-white/85 hover:shadow-lg transition-all duration-200 group flex items-center space-x-2 rtl:space-x-reverse"
                   >
-                    <BookOpen className="h-4 w-4 dashboard-text-muted group-hover:text-gray-700 transition-colors" />
-                    <span className="text-sm font-medium dashboard-text-secondary">Arabic Features</span>
-                    <ExternalLink className="h-3 w-3 dashboard-text-muted group-hover:text-gray-700 transition-colors" />
+                    <BookOpen className="h-4 w-4 text-gray-600 group-hover:text-gray-800 transition-colors" />
+                    <span className="text-sm font-medium text-gray-800">Arabic Features</span>
+                    <ExternalLink className="h-3 w-3 text-gray-500 group-hover:text-gray-700 transition-colors" />
                   </a>
                 </div>
               </div>
