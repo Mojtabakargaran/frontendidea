@@ -75,7 +75,6 @@ export default function LoginForm({ onSuccess, onError }: LoginFormProps) {
         roleName: data.data.roleName,
         permissions: data.data.permissions,
         sessionExpiresAt: data.data.sessionExpiresAt,
-        rememberMeEnabled: data.data.rememberMeEnabled, // Add the remember me flag
       };
       setUser(userData);
       

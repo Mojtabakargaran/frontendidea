@@ -51,26 +51,6 @@ export default function DashboardNavigation({ className }: DashboardNavigationPr
     setIsClient(true);
   }, []);
 
-  // Handle escape key to close mobile menu
-  useEffect(() => {
-    const handleEscape = (event: KeyboardEvent) => {
-      if (event.key === 'Escape' && isMobileOpen) {
-        setIsMobileOpen(false);
-      }
-    };
-
-    if (isMobileOpen) {
-      document.addEventListener('keydown', handleEscape);
-      // Prevent body scroll when mobile menu is open
-      document.body.style.overflow = 'hidden';
-    }
-
-    return () => {
-      document.removeEventListener('keydown', handleEscape);
-      document.body.style.overflow = '';
-    };
-  }, [isMobileOpen]);
-
   const navigationItems: NavigationItem[] = [
     {
       id: 'dashboard',
@@ -192,15 +172,13 @@ export default function DashboardNavigation({ className }: DashboardNavigationPr
           <h2 className="text-lg font-semibold text-gray-800">
             {t('dashboard.title')}
           </h2>
-          {/* Close button for mobile */}
           <Button
             variant="ghost"
             size="sm"
-            onClick={() => setIsMobileOpen(false)}
-            className="lg:hidden hover:bg-white/50"
-            aria-label="Close navigation menu"
+            onClick={() => setIsCollapsed(!isCollapsed)}
+            className="lg:hidden"
           >
-            <X className="h-4 w-4" />
+            {isCollapsed ? <Menu className="h-4 w-4" /> : <X className="h-4 w-4" />}
           </Button>
         </div>
       </div>
@@ -226,7 +204,6 @@ export default function DashboardNavigation({ className }: DashboardNavigationPr
                 onClick={() => {
                   if (!item.isComingSoon) {
                     router.push(item.href);
-                    // Close mobile menu after navigation
                     setIsMobileOpen(false);
                   }
                 }}
@@ -254,16 +231,8 @@ export default function DashboardNavigation({ className }: DashboardNavigationPr
       {/* Mobile Navigation Overlay */}
       {isMobileOpen && (
         <div 
-          className="fixed inset-0 bg-black/30 backdrop-blur-sm z-40 lg:hidden transition-opacity duration-300"
+          className="fixed inset-0 bg-black/20 backdrop-blur-sm z-40 lg:hidden"
           onClick={() => setIsMobileOpen(false)}
-          role="button"
-          tabIndex={0}
-          onKeyDown={(e) => {
-            if (e.key === 'Escape' || e.key === 'Enter') {
-              setIsMobileOpen(false);
-            }
-          }}
-          aria-label="Close navigation menu"
         />
       )}
 
@@ -271,23 +240,18 @@ export default function DashboardNavigation({ className }: DashboardNavigationPr
       <Button
         variant="outline"
         size="sm"
-        className="fixed top-20 right-4 z-50 lg:hidden bg-white/95 backdrop-blur-sm border-white/30 shadow-lg rounded-xl hover:bg-white"
+        className="fixed top-20 right-4 z-50 lg:hidden bg-white/95 backdrop-blur-sm border-white/30 shadow-lg rounded-xl"
         onClick={() => setIsMobileOpen(true)}
-        aria-label="Open navigation menu"
       >
         <Menu className="h-4 w-4" />
       </Button>
 
-      {/* Mobile Navigation Sidebar */}
-      <aside 
-        className={`
-          fixed top-16 right-0 h-[calc(100vh-4rem)] w-64 bg-white/95 backdrop-blur-sm border-l border-white/30 shadow-lg z-50 transform transition-transform duration-300 lg:hidden
-          ${isMobileOpen ? 'translate-x-0' : 'translate-x-full'}
-          ${className}
-        `}
-        role="navigation"
-        aria-label="Mobile navigation"
-      >
+      {/* Navigation Sidebar */}
+      <aside className={`
+        fixed top-16 right-0 h-[calc(100vh-4rem)] w-64 bg-white/95 backdrop-blur-sm border-l border-white/30 shadow-lg z-30 transform transition-transform duration-300 lg:translate-x-0
+        ${isMobileOpen ? 'translate-x-0' : 'translate-x-full'}
+        ${className}
+      `}>
         <Card className="h-full rounded-none border-0 shadow-none bg-transparent">
           <NavigationContent />
         </Card>
