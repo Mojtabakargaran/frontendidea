@@ -93,71 +93,12 @@ export default function LandingPage() {
                 <h2 className="text-3xl font-bold gradient-title mb-4">
                   {t('landing.features.title')}
                 </h2>
-                <p className="text-lg dashboard-text-secondary max-w-3xl mx-auto">
+                <p className="text-lg dashboard-text-secondary max-w-3xl mx-auto text-justify">
                   {t('landing.features.description')}
                 </p>
               </div>
             </div>
-
-            {/* Sample Users Section */}
-            <div className="glass-card rounded-2xl p-8 hover:shadow-2xl transition-all duration-300">
-              <div className="text-center mb-8">
-                <div className="mx-auto flex items-center justify-center h-16 w-16 rounded-full bg-gradient-to-r from-green-500 to-emerald-600 mb-4">
-                  <Users className="h-8 w-8 text-white" />
-                </div>
-                <h2 className="text-3xl font-bold gradient-title mb-4">
-                  {t('landing.sampleUsers.title')}
-                </h2>
-                <p className="text-lg dashboard-text-secondary mb-8">
-                  {t('landing.sampleUsers.description')}
-                </p>
-              </div>
-
-              <div className="grid md:grid-cols-2 gap-6 mb-8">
-                {/* Persian User */}
-                <div className="bg-white/60 backdrop-blur-sm rounded-xl p-6 border border-white/30">
-                  <h3 className="text-lg font-semibold dashboard-text-primary mb-3">
-                    {t('landing.sampleUsers.persian')}
-                  </h3>
-                  <div className="space-y-2 text-sm dashboard-text-secondary">
-                    <div className="flex items-center space-x-2 rtl:space-x-reverse">
-                      <span className="font-medium">{t('common.email')}:</span>
-                      <code className="bg-gray-100 px-2 py-1 rounded text-gray-800">ali.ahmadi@parsi.com</code>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Arabic User */}
-                <div className="bg-white/60 backdrop-blur-sm rounded-xl p-6 border border-white/30">
-                  <h3 className="text-lg font-semibold dashboard-text-primary mb-3">
-                    {t('landing.sampleUsers.arabic')}
-                  </h3>
-                  <div className="space-y-2 text-sm dashboard-text-secondary">
-                    <div className="flex items-center space-x-2 rtl:space-x-reverse">
-                      <span className="font-medium">{t('common.email')}:</span>
-                      <code className="bg-gray-100 px-2 py-1 rounded text-gray-800">ahmed.alsaadi@emirate.ae</code>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="text-center">
-                <div className="bg-gray-50 border border-gray-200 rounded-xl p-4 mb-6">
-                  <p className="text-sm dashboard-text-secondary">
-                    <span className="font-medium">{t('landing.sampleUsers.password')}:</span>
-                    <code className="bg-white px-2 py-1 rounded text-gray-800 mx-2" dir="ltr">SamplePass123!</code>
-                  </p>
-                  <p className="text-xs dashboard-text-muted mt-2">
-                    {t('landing.sampleUsers.note')}
-                  </p>
-                </div>
-                <Link href="/login" className="dashboard-button-primary rounded-xl px-6 py-3 inline-flex items-center space-x-2 rtl:space-x-reverse">
-                  <Eye className="h-4 w-4" />
-                  <span>{t('landing.actions.tryDemo')}</span>
-                </Link>
-              </div>
-            </div>
-
+            
             {/* GitHub Links Section */}
             <div className="glass-card rounded-2xl p-8 hover:shadow-2xl transition-all duration-300">
               <div className="text-center mb-8">

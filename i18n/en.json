@@ -4,7 +4,7 @@
     "subtitle": "Note: The main application supports Persian and Arabic. This landing page is available in three languages for demonstration.",
     "features": {
       "title": "Project Overview",
-      "description": "A comprehensive rental management platform built with modern technologies, featuring user authentication, dashboard management, and multi-language support."
+      "description": "This sample project has been completely written by artificial intelligence using my innovative method, Mojtaba Kargaran. No human coding was used at all in the development of this project. This project is a sample and may have flaws because my focus was on completing my process and not the perfect performance of the sample application itself. This application supports two languages, Persian and Arabic, with the ability to instantly change the language at both backend and frontend levels. The most important point in my innovative process is controlling artificial intelligence through performing process steps to achieve developable code and also advancing the project based on the most detailed required features. The difference between my method and existing AI application generation services is this precise detail specification capability because I used conventional application development methods but used artificial intelligence for all stages and controlled the related model to produce output according to my wishes. This process can be used by application development companies and not the end consumer. I am currently working to adapt this method to microservice projects."
     },
     "sampleUsers": {
       "title": "Try Sample Users",

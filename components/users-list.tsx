@@ -725,16 +725,16 @@ export default function UsersList({ onCreateUser, onEditUser }: UsersListProps) 
                                 {user.fullName}
                               </h3>
                               
-                              <div className="flex items-center space-x-4 mt-1 text-sm text-gray-600">
-                                <div className="flex items-center">
-                                  <Mail className="h-4 w-4 mr-1" />
-                                  {user.email}
+                              <div className="mt-1 text-sm text-gray-600 space-y-1">
+                                <div className="flex items-center min-w-0">
+                                  <Mail className="h-4 w-4 mr-1 flex-shrink-0" />
+                                  <span className="truncate">{user.email}</span>
                                 </div>
                                 
                                 {user.phoneNumber && (
                                   <div className="flex items-center">
-                                    <Phone className="h-4 w-4 mr-1" />
-                                    {user.phoneNumber}
+                                    <Phone className="h-4 w-4 mr-1 flex-shrink-0" />
+                                    <span dir="ltr">{user.phoneNumber}</span>
                                   </div>
                                 )}
                               </div>
