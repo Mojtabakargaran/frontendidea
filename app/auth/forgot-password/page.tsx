@@ -48,7 +48,7 @@ export default function ForgotPasswordPage() {
   if (!mounted) {
     return (
       <div className="min-h-screen flex items-center justify-center">
-        <div className="text-lg">{t('common.loading')}</div>
+        <div className="text-lg">Loading...</div>
       </div>
     );
   }

@@ -12,7 +12,7 @@ import '@/i18n';
 
 export default function LandingPage() {
   const { t, i18n } = useTranslation();
-  const { initializeLanguage, applyLanguageStyles } = useLanguagePersistence();
+  const { initializeLanguage, applyLanguageStyles, navigateToAuthPage } = useLanguagePersistence();
   const [mounted, setMounted] = useState(false);
 
   // Ensure component is mounted on client side
@@ -38,7 +38,7 @@ export default function LandingPage() {
   if (!mounted) {
     return (
       <div className="min-h-screen flex items-center justify-center">
-        <div className="text-lg">{t('common.loading')}</div>
+        <div className="text-lg">Loading...</div>
       </div>
     );
   }
@@ -76,14 +76,20 @@ export default function LandingPage() {
 
               {/* Action Buttons */}
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                <Link href="/login" className="dashboard-button-primary rounded-xl px-8 py-4 min-h-[52px] flex items-center space-x-2 rtl:space-x-reverse">
+                <button 
+                  onClick={() => navigateToAuthPage('/login')}
+                  className="dashboard-button-primary rounded-xl px-8 py-4 min-h-[52px] flex items-center space-x-2 rtl:space-x-reverse"
+                >
                   <LogIn className="h-5 w-5" />
                   <span>{t('landing.actions.login')}</span>
-                </Link>
-                <Link href="/auth/register" className="dashboard-button-secondary rounded-xl px-8 py-4 min-h-[52px] flex items-center space-x-2 rtl:space-x-reverse">
+                </button>
+                <button 
+                  onClick={() => navigateToAuthPage('/auth/register')}
+                  className="dashboard-button-secondary rounded-xl px-8 py-4 min-h-[52px] flex items-center space-x-2 rtl:space-x-reverse"
+                >
                   <UserPlus className="h-5 w-5" />
                   <span>{t('landing.actions.register')}</span>
-                </Link>
+                </button>
               </div>
             </div>
 
