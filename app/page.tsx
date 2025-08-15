@@ -192,11 +192,11 @@ export default function LandingPage() {
               </div>
             </div>
 
-            {/* Language Note */}
+            {/* Contact Note */}
             <div className="text-center">
               <div className="glass-overlay rounded-xl p-6 max-w-4xl mx-auto">
                 <p className="text-sm gradient-text-navy leading-relaxed">
-                  {t('landing.languages.note')}
+                  {t('landing.contactInfo.note')}
                 </p>
               </div>
             </div>
